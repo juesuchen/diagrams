@@ -1,9 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T01:57:23.900Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="CIdh1_XFnRWyhCp9M7EK" version="12.9.14" type="github">
-  <diagram id="C7JiWXiiRQbd8pdOPjNT" name="Page-1">
-    <mxGraphModel dx="1156" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-01-07T02:16:45.091Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="LfJgwIGUrBYBsjmO1iFi" version="12.9.14" type="github">
+  <diagram id="C7JiWXiiRQbd8pdOPjNT" name="Dubbo">
+    <mxGraphModel dx="1360" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-1" value="消费者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-2" target="NLblwN5Bvji-4CYn-JjN-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="909" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-7" value="服务注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NLblwN5Bvji-4CYn-JjN-6">
+          <mxGeometry x="0.1042" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-2" value="服务提供者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="380" width="163" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-3" value="接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-4" target="NLblwN5Bvji-4CYn-JjN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-4" value="接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.556;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-5" target="NLblwN5Bvji-4CYn-JjN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-9" value="服务发现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NLblwN5Bvji-4CYn-JjN-8">
+          <mxGeometry x="-0.4317" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-5" value="注册中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="216" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-10" target="NLblwN5Bvji-4CYn-JjN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-10" value="动态代理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-12" target="NLblwN5Bvji-4CYn-JjN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-12" value="Cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-13" target="NLblwN5Bvji-4CYn-JjN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-13" value="Load Balance&lt;br&gt;选择一台机器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-14" target="NLblwN5Bvji-4CYn-JjN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-14" value="Protocol&lt;br&gt;使用哪种方式发送请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-18" target="NLblwN5Bvji-4CYn-JjN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-18" value="Exchange&lt;br&gt;封装Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-19" value="网络通信框架&lt;br&gt;netty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-20" target="NLblwN5Bvji-4CYn-JjN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-20" value="序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="970" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-24" value="端口号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-27" value="监听" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-25" target="NLblwN5Bvji-4CYn-JjN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-25" value="网络通信框架&lt;br&gt;netty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-28" target="NLblwN5Bvji-4CYn-JjN-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-28" value="反序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="742" y="450" width="58" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-29" target="NLblwN5Bvji-4CYn-JjN-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-29" value="Exchange&lt;br&gt;解析Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-30" target="NLblwN5Bvji-4CYn-JjN-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-30" value="Protocol&lt;br&gt;选择一种协议解析请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-35" value="调用接口" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLblwN5Bvji-4CYn-JjN-33" target="NLblwN5Bvji-4CYn-JjN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-33" value="动态代理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="650" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NLblwN5Bvji-4CYn-JjN-36" value="&lt;br&gt;&lt;h4 style=&quot;box-sizing: border-box ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; line-height: 1.25 ; margin: 24px 0em 16px ; padding: 0em ; font-size: 16px ; position: relative ; text-align: left&quot;&gt;动态代理：Proxy&lt;/h4&gt;&lt;h4 style=&quot;box-sizing: border-box ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; line-height: 1.25 ; margin: 24px 0em 16px ; padding: 0em ; font-size: 16px ; position: relative ; text-align: left&quot;&gt;&lt;a id=&quot;负载均衡cluster负载均衡故障转移&quot; class=&quot;anchor&quot; href=&quot;https://gitee.com/shishan100/Java-Interview-Advanced/blob/master/docs/distributed-system/dubbo-framework-principle.md#%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1cluster%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E6%95%85%E9%9A%9C%E8%BD%AC%E7%A7%BB&quot; style=&quot;box-sizing: border-box ; cursor: pointer ; overflow-wrap: break-word ; float: left ; padding-right: 4px ; margin-left: -20px ; line-height: 1 ; display: block ; padding-left: 30px ; position: absolute ; top: 0px ; left: 0px ; bottom: 0px ; outline: none&quot;&gt;&lt;/a&gt;负载均衡：Cluster，负载均衡，故障转移&lt;/h4&gt;&lt;h4 style=&quot;box-sizing: border-box ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; line-height: 1.25 ; margin: 24px 0em 16px ; padding: 0em ; font-size: 16px ; position: relative ; text-align: left&quot;&gt;&lt;a id=&quot;注册中心registry&quot; class=&quot;anchor&quot; href=&quot;https://gitee.com/shishan100/Java-Interview-Advanced/blob/master/docs/distributed-system/dubbo-framework-principle.md#%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83registry&quot; style=&quot;box-sizing: border-box ; cursor: pointer ; overflow-wrap: break-word ; float: left ; padding-right: 4px ; margin-left: -20px ; line-height: 1 ; display: block ; padding-left: 30px ; position: absolute ; top: 0px ; left: 0px ; bottom: 0px ; outline: none&quot;&gt;&lt;/a&gt;注册中心：Registry&lt;/h4&gt;&lt;h4 style=&quot;box-sizing: border-box ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;simsun&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; line-height: 1.25 ; margin: 24px 0em 16px ; padding: 0em ; font-size: 16px ; position: relative ; text-align: left&quot;&gt;&lt;a id=&quot;通信协议protocolfilter机制httprmidubbo等协议&quot; class=&quot;anchor&quot; href=&quot;https://gitee.com/shishan100/Java-Interview-Advanced/blob/master/docs/distributed-system/dubbo-framework-principle.md#%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AEprotocolfilter%E6%9C%BA%E5%88%B6httprmidubbo%E7%AD%89%E5%8D%8F%E8%AE%AE&quot; style=&quot;box-sizing: border-box ; cursor: pointer ; overflow-wrap: break-word ; float: left ; padding-right: 4px ; margin-left: -20px ; line-height: 1 ; display: block ; padding-left: 30px ; position: absolute ; top: 0px ; left: 0px ; bottom: 0px ; outline: none&quot;&gt;&lt;/a&gt;通信协议：Protocol，filter机制，http、rmi、dubbo等协议&lt;/h4&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="435" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
