@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T02:32:44.724Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="VI12tawv8YD4OsVltZOp" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-11T02:44:32.845Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="iSCtKJNY5f-FMGWGAyU8" version="14.1.8" type="github" pages="2">
   <diagram id="ZRZctjsknc8e8Y7eD8WB" name="Eureka">
     <mxGraphModel dx="1422" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,6 +241,9 @@
         </mxCell>
         <mxCell id="NqYlhsiGbe7XxsHwuH4E-30" value="MySql&lt;br&gt;8核16G" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="NqYlhsiGbe7XxsHwuH4E-1">
           <mxGeometry x="490" y="660" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NqYlhsiGbe7XxsHwuH4E-34" value="&lt;h1&gt;并发量&lt;/h1&gt;&lt;div&gt;1、服务注册中心，每秒上千&lt;/div&gt;&lt;div&gt;2、业务微服务，每秒几百&lt;/div&gt;&lt;div&gt;3、网关系统，一台机器抗每秒几百请求&lt;/div&gt;&lt;div&gt;4、数据库，每秒一两千左右&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1" vertex="1" parent="NqYlhsiGbe7XxsHwuH4E-1">
+          <mxGeometry x="45" y="30" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
