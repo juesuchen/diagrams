@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T02:44:32.845Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="iSCtKJNY5f-FMGWGAyU8" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-23T05:51:17.091Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="-britNhgy90mMAXQyLX3" version="14.2.9" type="github" pages="2">
   <diagram id="ZRZctjsknc8e8Y7eD8WB" name="Eureka">
-    <mxGraphModel dx="1422" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1374" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,12 +23,8 @@
         <mxCell id="ys1kdwdnNZaFBrmjLRdG-2" value="消费者&lt;br&gt;&lt;br&gt;服务注册列表&lt;br&gt;192.168.1.10:8080" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="210" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ys1kdwdnNZaFBrmjLRdG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ys1kdwdnNZaFBrmjLRdG-4" target="ys1kdwdnNZaFBrmjLRdG-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="840" y="355" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="b5hkTW-SGXUPkr9r3Btj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ys1kdwdnNZaFBrmjLRdG-4" target="ys1kdwdnNZaFBrmjLRdG-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ys1kdwdnNZaFBrmjLRdG-4" value="服务注册列表&lt;br&gt;192.168.1.10:8080&lt;br&gt;192.168.1.11:8080" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="230" width="140" height="60" as="geometry" />
@@ -68,7 +64,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ys1kdwdnNZaFBrmjLRdG-27" value="定时发送心跳" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ys1kdwdnNZaFBrmjLRdG-26" vertex="1" connectable="0">
+        <mxCell id="ys1kdwdnNZaFBrmjLRdG-27" value="定时发送心跳，30S" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ys1kdwdnNZaFBrmjLRdG-26" vertex="1" connectable="0">
           <mxGeometry x="-0.0327" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
