@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T07:32:04.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="CGPt3dsoykBE-cdJNmOJ" version="14.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-29T08:18:40.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="8GpiSBd5V0Rv0By9ENjO" version="14.5.1" type="github" pages="2">
   <diagram id="mEjgsEmW6aTYjQHUtSC1" name="营销流程">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
         <mxCell id="miJBICCfsCftFXK94_Nd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9oz1lAoYY2XBqPyosI8p-1" source="9oz1lAoYY2XBqPyosI8p-2" target="miJBICCfsCftFXK94_Nd-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9oz1lAoYY2XBqPyosI8p-2" value="rs-gateway&lt;br&gt;4001" style="rounded=0;whiteSpace=wrap;html=1;" parent="9oz1lAoYY2XBqPyosI8p-1" vertex="1">
+        <mxCell id="9oz1lAoYY2XBqPyosI8p-2" value="rs-gateway&lt;br&gt;4001" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="9oz1lAoYY2XBqPyosI8p-1" vertex="1">
           <mxGeometry x="610" y="-130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="miJBICCfsCftFXK94_Nd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9oz1lAoYY2XBqPyosI8p-1" source="9oz1lAoYY2XBqPyosI8p-3" target="miJBICCfsCftFXK94_Nd-5">
