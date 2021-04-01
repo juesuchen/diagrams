@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T02:57:00.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ulHtQJyeq6mQoPDIC8nc" version="14.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-01T03:37:12.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="3S2kPEtVTcp_JmwqEH-E" version="14.5.3" type="github" pages="3">
   <diagram id="mEjgsEmW6aTYjQHUtSC1" name="营销流程">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,6 +236,12 @@
         </mxCell>
         <mxCell id="kJjYUjmNkcvlst6mDXJV-26" value="关闭订单接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="kJjYUjmNkcvlst6mDXJV-1">
           <mxGeometry x="710" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kJjYUjmNkcvlst6mDXJV-27" value="&lt;h4 style=&quot;padding: 0px ; position: relative ; top: -8px ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(250 , 251 , 252) ; margin: 20px 0px 10px ; font-size: 19.7517px&quot;&gt;&lt;font style=&quot;font-size: 19.7517px&quot;&gt;申请APPID，申请mchid，绑定APPID及mchid&lt;/font&gt;&lt;/h4&gt;&lt;div style=&quot;font-size: 19.7517px&quot;&gt;&lt;h3 style=&quot;margin: 30px 0px 10px ; padding: 0px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(250 , 251 , 252)&quot;&gt;&lt;font style=&quot;font-size: 19.7517px&quot;&gt;配置API key&lt;/font&gt;&lt;/h3&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kJjYUjmNkcvlst6mDXJV-1">
+          <mxGeometry x="330" y="20" width="430" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kJjYUjmNkcvlst6mDXJV-28" value="商户 公钥和私钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="kJjYUjmNkcvlst6mDXJV-1">
+          <mxGeometry x="590" y="550" width="200" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
