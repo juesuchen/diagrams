@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T04:30:24.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ShFLzeCIES8A1iTE_1O3" version="14.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T07:16:19.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="R7d3O5t5VJ5LhBKJJ18l" version="14.5.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="1117" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="RccVGRR6IuWip-MB4LQ6-16" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="80" width="160" height="470" as="geometry" />
+        </mxCell>
         <mxCell id="wIvYy9SvaJb5gEYHEysC-5" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;XMLConfigBuilder&lt;/span&gt;&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wIvYy9SvaJb5gEYHEysC-0" target="wIvYy9SvaJb5gEYHEysC-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -42,6 +45,14 @@
         </mxCell>
         <mxCell id="wIvYy9SvaJb5gEYHEysC-8" value="DefaultSqlSessionFactory" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="820" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RccVGRR6IuWip-MB4LQ6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wIvYy9SvaJb5gEYHEysC-10" target="RccVGRR6IuWip-MB4LQ6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RccVGRR6IuWip-MB4LQ6-20" value="Sql语句通过解释" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RccVGRR6IuWip-MB4LQ6-19">
+          <mxGeometry x="-0.2351" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wIvYy9SvaJb5gEYHEysC-10" value="MappedStatement" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="370" y="300" width="120" height="60" as="geometry" />
@@ -88,6 +99,12 @@
         </mxCell>
         <mxCell id="RccVGRR6IuWip-MB4LQ6-10" value="IUserDao" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="90" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RccVGRR6IuWip-MB4LQ6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RccVGRR6IuWip-MB4LQ6-17" target="RccVGRR6IuWip-MB4LQ6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RccVGRR6IuWip-MB4LQ6-17" value="BoundSql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
