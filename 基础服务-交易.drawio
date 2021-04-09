@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T02:51:10.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="99BKXxgJqlK-IK9YzB9w" version="14.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-09T02:54:06.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="JdT8P_XZtJsekQfNFP6z" version="14.5.8" type="github" pages="2">
   <diagram id="1_BJ2fNKis6F1G904Jj7" name="第 1 页">
     <mxGraphModel dx="782" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,11 +101,6 @@
         <mxCell id="m_ZNmE9SdN_4GbKMc59w-124" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="m_ZNmE9SdN_4GbKMc59w-81">
           <mxGeometry x="45" y="430" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m_ZNmE9SdN_4GbKMc59w-126" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="m_ZNmE9SdN_4GbKMc59w-124" parent="m_ZNmE9SdN_4GbKMc59w-81">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="125" y="487" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="m_ZNmE9SdN_4GbKMc59w-85" value="支付服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="m_ZNmE9SdN_4GbKMc59w-1">
           <mxGeometry x="200" y="20" width="100" height="590" as="geometry" />
         </mxCell>
@@ -146,11 +141,22 @@
         <mxCell id="m_ZNmE9SdN_4GbKMc59w-116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="m_ZNmE9SdN_4GbKMc59w-85">
           <mxGeometry x="55" y="380" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="m_ZNmE9SdN_4GbKMc59w-117" value="更新本地订单信息，并生成流水" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="m_ZNmE9SdN_4GbKMc59w-116" parent="m_ZNmE9SdN_4GbKMc59w-85">
+        <mxCell id="m_ZNmE9SdN_4GbKMc59w-117" value="更新本地订单信息（支付成功），&lt;br&gt;并生成流水" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="m_ZNmE9SdN_4GbKMc59w-116" parent="m_ZNmE9SdN_4GbKMc59w-85">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="360" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="90" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_ZNmE9SdN_4GbKMc59w-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="m_ZNmE9SdN_4GbKMc59w-85">
+          <mxGeometry x="50" y="520" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m_ZNmE9SdN_4GbKMc59w-128" value="更新本地订单信息（通知成功）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="m_ZNmE9SdN_4GbKMc59w-127" parent="m_ZNmE9SdN_4GbKMc59w-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -208,6 +214,11 @@
         <mxCell id="m_ZNmE9SdN_4GbKMc59w-125" value="异步通知业务系统支付结果" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" edge="1" target="m_ZNmE9SdN_4GbKMc59w-124" parent="m_ZNmE9SdN_4GbKMc59w-1" source="m_ZNmE9SdN_4GbKMc59w-85">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_ZNmE9SdN_4GbKMc59w-126" value="返回确认收到信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="m_ZNmE9SdN_4GbKMc59w-124" parent="m_ZNmE9SdN_4GbKMc59w-1" target="m_ZNmE9SdN_4GbKMc59w-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" y="507" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
