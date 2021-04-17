@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T05:39:31.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="AOo3jdm-1uhYmhsernaz" version="14.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-17T05:41:10.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="NEDD-me0k4CEjJmdjeI8" version="14.5.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="1117" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,9 +140,9 @@
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-6" target="x6rgjDe1mu-2xuDdk9oM-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x6rgjDe1mu-2xuDdk9oM-13" value="mapperElement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x6rgjDe1mu-2xuDdk9oM-12">
+        <mxCell id="x6rgjDe1mu-2xuDdk9oM-13" value="mapperElement&lt;br&gt;package/class/resource" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x6rgjDe1mu-2xuDdk9oM-12">
           <mxGeometry x="-0.2635" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="11" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-6" value="XMLConfigBuilder&lt;br&gt;parse(/configuration)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
@@ -158,7 +158,7 @@
           <mxGeometry x="605" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-11" value="XMLMapperBuilder" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="890" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-14" value="TransactionFactory" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="805" y="-30" width="120" height="60" as="geometry" />
