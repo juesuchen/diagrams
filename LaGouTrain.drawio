@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T08:50:46.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="taYZwhiR1HyLAyK2n16N" version="14.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-17T08:51:23.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="IiLhFFn0IAViq3Been5w" version="14.5.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="1117" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,8 +180,11 @@
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-23" value="解释mapper结点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="870" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x6rgjDe1mu-2xuDdk9oM-27" value="cacheElement" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-24" target="x6rgjDe1mu-2xuDdk9oM-26">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="x6rgjDe1mu-2xuDdk9oM-27" value="cacheElement&lt;br&gt;生成二级缓存" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1001" y="290" as="sourcePoint" />
+            <mxPoint x="1181" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-29" value="buildStatementFromContext" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-24" target="x6rgjDe1mu-2xuDdk9oM-28">
           <mxGeometry relative="1" as="geometry" />
