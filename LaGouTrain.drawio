@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T05:43:15.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="SDrgzuV_nCee2k7xyDsZ" version="14.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-17T05:52:13.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ILGqTMkHPGRU2ZddIixi" version="14.5.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="1117" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,13 +134,15 @@
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-3" value="SqlSessionFactoryBuilder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="330" y="110" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x6rgjDe1mu-2xuDdk9oM-10" value="environmentsElement" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-6" target="x6rgjDe1mu-2xuDdk9oM-9">
+        <mxCell id="x6rgjDe1mu-2xuDdk9oM-10" value="environmentsElement解释环境结点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-6" target="x6rgjDe1mu-2xuDdk9oM-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x6rgjDe1mu-2xuDdk9oM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-6" target="x6rgjDe1mu-2xuDdk9oM-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="x6rgjDe1mu-2xuDdk9oM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-6" target="x6rgjDe1mu-2xuDdk9oM-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="x6rgjDe1mu-2xuDdk9oM-13" value="mapperElement&lt;br&gt;resource/url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x6rgjDe1mu-2xuDdk9oM-12">
+        <mxCell id="x6rgjDe1mu-2xuDdk9oM-13" value="解释mapper结点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x6rgjDe1mu-2xuDdk9oM-12">
           <mxGeometry x="-0.2635" y="-2" relative="1" as="geometry">
             <mxPoint x="11" y="8" as="offset" />
           </mxGeometry>
@@ -157,9 +159,6 @@
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-9" value="transactionManager&lt;br&gt;dataSource" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="605" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x6rgjDe1mu-2xuDdk9oM-11" value="XMLMapperBuilder" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="930" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-14" value="TransactionFactory" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="805" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
@@ -168,6 +167,9 @@
         </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-18" value="configuration.addMappers(mapperPackage)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="930" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6rgjDe1mu-2xuDdk9oM-19" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry x="880" y="90" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
