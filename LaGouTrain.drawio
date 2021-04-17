@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T08:51:23.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="IiLhFFn0IAViq3Been5w" version="14.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-17T08:59:58.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mixd8se7vph9K5qwlP_3" version="14.5.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="1117" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,6 +189,13 @@
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-29" value="buildStatementFromContext" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-24" target="x6rgjDe1mu-2xuDdk9oM-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="x6rgjDe1mu-2xuDdk9oM-34" value="解释完Mapper文件后，也会addMapper" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-24" target="x6rgjDe1mu-2xuDdk9oM-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1148" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-24" value="XMLMapperBuilder&lt;br&gt;parse解释相应的mapper&lt;br&gt;&lt;div&gt;:parameterMapElement&lt;/div&gt;&lt;div&gt;:resultMapElements&lt;/div&gt;&lt;div&gt;:sqlElement&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="860" y="250" width="140" height="80" as="geometry" />
         </mxCell>
@@ -204,7 +211,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-28" value="XMLStatementBuilder&lt;br&gt;:parseStatementNode&lt;br&gt;解释SQL语句&lt;br&gt;select|insert|update|delete" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="855" y="400" width="155" height="60" as="geometry" />
+          <mxGeometry x="852.5" y="400" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-30" value="生成MappedStatement放到&lt;br&gt;configuration中&lt;br&gt;.addMappedStatement(statement)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="1330" y="410" width="190" height="40" as="geometry" />
