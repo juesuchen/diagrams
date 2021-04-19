@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T22:53:11.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="poYJRrMWqrmT00gxECwE" version="14.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-19T01:03:35.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="JXb9VbbRh0nK5zjS2PNB" version="14.6.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gR8zzzDgB4NcIEMsgWaa" name="Mybatis原码解释">
-    <mxGraphModel dx="782" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-0" />
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-1" parent="x6rgjDe1mu-2xuDdk9oM-0" />
@@ -168,15 +168,18 @@
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-16" value="DataSourceFactory" style="whiteSpace=wrap;html=1;rounded=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="405" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xAjSwTnz8msUbjn6zds_-0" value="loadXmlResource" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.824;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-18" target="x6rgjDe1mu-2xuDdk9oM-24">
+        <mxCell id="xAjSwTnz8msUbjn6zds_-0" value="loadXmlResource" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.824;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-18" target="x6rgjDe1mu-2xuDdk9oM-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1195" y="200" />
-              <mxPoint x="975" y="200" />
+              <mxPoint x="1195" y="220" />
+              <mxPoint x="975" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x6rgjDe1mu-2xuDdk9oM-18" value="configuration.&lt;br&gt;addMapper(mapperInterface)&lt;br&gt;addMappers(mapperPackage)&lt;br&gt;也是会先去加载xml文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
+        <mxCell id="-VzbjDD8u6ZJ_6t78dXS-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="x6rgjDe1mu-2xuDdk9oM-18" target="-VzbjDD8u6ZJ_6t78dXS-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6rgjDe1mu-2xuDdk9oM-18" value="configuration.&lt;br&gt;addMapper(mapperInterface)&lt;br&gt;addMappers(mapperPackage)&lt;br&gt;也是会先去加载xml文件（如果有）" style="rounded=1;whiteSpace=wrap;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="1100" y="110" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-21" value="package / class" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" target="x6rgjDe1mu-2xuDdk9oM-18" edge="1">
@@ -312,6 +315,17 @@
               <mxPoint x="1210" y="840" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-VzbjDD8u6ZJ_6t78dXS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="-VzbjDD8u6ZJ_6t78dXS-0" target="x6rgjDe1mu-2xuDdk9oM-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="140" />
+              <mxPoint x="1620" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VzbjDD8u6ZJ_6t78dXS-0" value="遍历所有方法，去解释注解" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry x="1405" y="110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
