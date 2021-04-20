@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T22:54:02.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="21eUxIhyUMYHJt9IHpjS" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-20T22:57:27.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Wx6fDSES6oAm6gN9sXqG" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gR8zzzDgB4NcIEMsgWaa" name="Mybatis原码解释">
-    <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1479" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-0" />
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-1" parent="x6rgjDe1mu-2xuDdk9oM-0" />
@@ -466,6 +466,9 @@
         <mxCell id="3caJ7_Y0QrfHwFQVCA8B-1" value="MapperAnnotationBuilder&lt;br&gt;解释注册类型的Mapper" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="1770" y="110" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="3caJ7_Y0QrfHwFQVCA8B-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="3caJ7_Y0QrfHwFQVCA8B-7" target="3caJ7_Y0QrfHwFQVCA8B-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3caJ7_Y0QrfHwFQVCA8B-7" value="SqlSource&lt;br&gt;存放Sql语句&lt;br&gt;同时解释下面的注解：&lt;br&gt;Options&lt;br&gt;SelectKey&lt;br&gt;ResultMap" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="2330" y="90" width="140" height="95" as="geometry" />
         </mxCell>
@@ -476,10 +479,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3caJ7_Y0QrfHwFQVCA8B-12" value="SqlSourceBuilder&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="2550" y="85" width="120" height="60" as="geometry" />
+          <mxGeometry x="2550" y="107.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3caJ7_Y0QrfHwFQVCA8B-13" value="ParameterMappingTokenHandler&lt;br&gt;解释参数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="2510" y="205" width="200" height="60" as="geometry" />
+          <mxGeometry x="2510" y="230" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
