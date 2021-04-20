@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T22:31:16.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="tCKVdiPVcId61OdKGw6C" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-20T22:31:45.882Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ypl6grJh93b7c3cY65XQ" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -469,8 +469,8 @@
         <mxCell id="3caJ7_Y0QrfHwFQVCA8B-6" value="#{} 是读参数中&lt;br&gt;${}是读配置文件的参数：configuration.getVariables()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="1930" y="20" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3caJ7_Y0QrfHwFQVCA8B-7" value="SqlSource：存放Sql语句&lt;br&gt;同时解释下面的注解：&lt;br&gt;Options&lt;br&gt;SelectKey&lt;br&gt;ResultMap" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="2330" y="105" width="140" height="70" as="geometry" />
+        <mxCell id="3caJ7_Y0QrfHwFQVCA8B-7" value="SqlSource&lt;br&gt;存放Sql语句&lt;br&gt;同时解释下面的注解：&lt;br&gt;Options&lt;br&gt;SelectKey&lt;br&gt;ResultMap" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry x="2330" y="90" width="140" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
