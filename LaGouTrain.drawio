@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T21:42:49.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="6DuRYTXVbh8gN5yIwPIw" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T21:46:11.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="GlGUhgwt974PqPfIXwNr" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -427,11 +427,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-1" value="TypeAliasRegistry&lt;br&gt;使用名为TYPE_ALIASES的HashMap存储&lt;br&gt;别名注册，两种方式&lt;br&gt;1、package(批量)&lt;br&gt;2、alias+type（单个类）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
-          <mxGeometry x="-127.81" y="362.5" width="239.38" height="80" as="geometry" />
+        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-1" value="TypeAliasRegistry&lt;br&gt;使用名为TYPE_ALIASES的HashMap存储&lt;br&gt;在TypeAliasRegistry和Configuration的构造方法中会初始化一系统类，以便在配置文件中可以使用&lt;br&gt;别名注册，两种方式&lt;br&gt;1、package(批量)&lt;br&gt;2、alias+type（单个类）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
+          <mxGeometry x="-230" y="362.5" width="341.57" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-2" value="找到指定包下面所有的非接口，非匿名类，然后进行注册，别名取自：&lt;br&gt;1、类的名称&lt;br&gt;2、如果类上面标有Alias注解，则取注解值&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;此方式需要注意，不同包名下，类的名称不能相同（统一转成小写比较的&lt;/font&gt;）" style="whiteSpace=wrap;html=1;rounded=0;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
-          <mxGeometry x="-138.12" y="532.5" width="260" height="102.5" as="geometry" />
+          <mxGeometry x="-189.22" y="548" width="260" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="gDsnpV5gorc6jn4BJ1Pi-7" target="gDsnpV5gorc6jn4BJ1Pi-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
