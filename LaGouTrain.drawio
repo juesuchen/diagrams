@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T22:02:35.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="xQQJPIpePQ6g8ZbVuRKT" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T22:07:14.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="xuFKukonxpv0EOqONMrO" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -514,7 +514,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZUzCvuf2tTJXR3F6CM8-9" value="configuration.newExecutor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MZUzCvuf2tTJXR3F6CM8-8" vertex="1" connectable="0">
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-9" value="&lt;b&gt;configuration.newExecutor&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MZUzCvuf2tTJXR3F6CM8-8" vertex="1" connectable="0">
           <mxGeometry x="0.3591" y="4" relative="1" as="geometry">
             <mxPoint x="-35" y="14" as="offset" />
           </mxGeometry>
@@ -581,7 +581,7 @@
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="MZUzCvuf2tTJXR3F6CM8-27" target="MZUzCvuf2tTJXR3F6CM8-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZUzCvuf2tTJXR3F6CM8-27" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;先构建StatementHandler&lt;br&gt;handler = configuration.newStatementHandler&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-27" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;先构建StatementHandler&lt;br&gt;&lt;b&gt;handler = configuration.newStatementHandler&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="493" y="1753" width="294" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="MZUzCvuf2tTJXR3F6CM8-30" edge="1">
@@ -606,7 +606,7 @@
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-40" value="没配置ResultMap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="MZUzCvuf2tTJXR3F6CM8-33" target="MZUzCvuf2tTJXR3F6CM8-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZUzCvuf2tTJXR3F6CM8-33" value="结果处理器（DefaultResultSetHandler）&lt;br&gt;configuration.newResultSetHandler&lt;br&gt;：handleResultSets(Statement stmt)&lt;br&gt;：getRowValue" style="rounded=1;whiteSpace=wrap;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-33" value="结果处理器（DefaultResultSetHandler）&lt;br&gt;&lt;b&gt;configuration.newResultSetHandler&lt;/b&gt;&lt;br&gt;：handleResultSets(Statement stmt)&lt;br&gt;：getRowValue" style="rounded=1;whiteSpace=wrap;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="110" y="1753" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-35" value="根据resultType去typeHandlerRegistry中查找是否有合适的处理器，如果没有，就反射创建一个对象，然后赋值&lt;br&gt;需要对象有Set方法，，" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
