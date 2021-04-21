@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T22:23:14.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="8XTDkWyb-RDWf_-9-t-o" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T22:23:32.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="umKni_rWLD1NT1IsDSBP" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -559,7 +559,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-19" value="再调用执行器执行&lt;br&gt;注：是经过插件包装后的，最终会到&lt;b&gt;CachingExecutor&lt;/b&gt;（有开启二级缓存情况下）&lt;br&gt;&lt;br&gt;List&amp;lt;E&amp;gt; query" style="whiteSpace=wrap;html=1;rounded=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
-          <mxGeometry x="542.5" y="1360" width="195" height="80" as="geometry" />
+          <mxGeometry x="542.5" y="1360" width="195" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-24" value="一级缓存中没有，则从数据库获取" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="MZUzCvuf2tTJXR3F6CM8-21" target="MZUzCvuf2tTJXR3F6CM8-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
