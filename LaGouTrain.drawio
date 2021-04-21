@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T21:46:11.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="GlGUhgwt974PqPfIXwNr" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T22:00:17.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ylOUVxvoqdq4vUgJfUZe" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -427,7 +427,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-1" value="TypeAliasRegistry&lt;br&gt;使用名为TYPE_ALIASES的HashMap存储&lt;br&gt;在TypeAliasRegistry和Configuration的构造方法中会初始化一系统类，以便在配置文件中可以使用&lt;br&gt;别名注册，两种方式&lt;br&gt;1、package(批量)&lt;br&gt;2、alias+type（单个类）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
+        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-1" value="TypeAliasRegistry&lt;br&gt;使用名为TYPE_ALIASES的HashMap存储&lt;br&gt;在TypeAliasRegistry和Configuration的构造方法中会初始化一系统类，以便在配置文件中可以使用&lt;br&gt;别名注册，不区分大小写，两种方式&lt;br&gt;1、package(批量)&lt;br&gt;2、alias+type（单个类）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="-230" y="362.5" width="341.57" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-2" value="找到指定包下面所有的非接口，非匿名类，然后进行注册，别名取自：&lt;br&gt;1、类的名称&lt;br&gt;2、如果类上面标有Alias注解，则取注解值&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;此方式需要注意，不同包名下，类的名称不能相同（统一转成小写比较的&lt;/font&gt;）" style="whiteSpace=wrap;html=1;rounded=0;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
@@ -436,11 +436,11 @@
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="gDsnpV5gorc6jn4BJ1Pi-7" target="gDsnpV5gorc6jn4BJ1Pi-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-7" value="InterceptorChain&lt;br&gt;插件器链&lt;br&gt;解释出每一个插件和它的属性后，增到集合中&lt;br&gt;&amp;nbsp;configuration.addInterceptor(interceptorInstance)" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
-          <mxGeometry x="150" y="362.5" width="290" height="60" as="geometry" />
+        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-7" value="InterceptorChain（插件器链）&lt;br style=&quot;font-size: 11px&quot;&gt;解释出每一个插件和它的属性后，增到集合中，后续创建四大类型时&lt;br style=&quot;font-size: 11px&quot;&gt;（&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span class=&quot;lake-fontsize-10&quot; style=&quot;color: rgb(51 , 51 , 51) ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(38 , 38 , 38) ; line-height: 1.74 ; letter-spacing: 0.05em ; outline-style: none ; overflow-wrap: break-word ; font-size: 11px&quot;&gt;Executor、&lt;span class=&quot;lake-fontsize-10&quot; style=&quot;color: rgb(51 , 51 , 51) ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(38 , 38 , 38) ; line-height: 1.74 ; letter-spacing: 0.05em ; outline-style: none ; overflow-wrap: break-word ; font-size: 11px&quot;&gt;StatementHandler，&lt;span class=&quot;lake-fontsize-10&quot; style=&quot;color: rgb(51 , 51 , 51) ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(38 , 38 , 38) ; line-height: 1.74 ; letter-spacing: 0.05em ; outline-style: none ; overflow-wrap: break-word ; font-size: 11px&quot;&gt;ParameterHandler，&lt;span class=&quot;lake-fontsize-10&quot; style=&quot;color: rgb(51 , 51 , 51) ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(38 , 38 , 38) ; line-height: 1.74 ; letter-spacing: 0.05em ; outline-style: none ; overflow-wrap: break-word ; font-size: 11px&quot;&gt;ResultSetHandler&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;）&lt;/font&gt;，会调用pluinAll方法进行包装&lt;br style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;configuration.addInterceptor(interceptorInstance)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontSize=11;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
+          <mxGeometry x="150" y="362.5" width="450" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-8" value="Interceptor&lt;br&gt;.setProperties(properties)" style="whiteSpace=wrap;html=1;rounded=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
-          <mxGeometry x="195" y="532.5" width="200" height="60" as="geometry" />
+          <mxGeometry x="275" y="537.75" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="gDsnpV5gorc6jn4BJ1Pi-14" target="gDsnpV5gorc6jn4BJ1Pi-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -457,7 +457,7 @@
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="gDsnpV5gorc6jn4BJ1Pi-21" target="gDsnpV5gorc6jn4BJ1Pi-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-21" value="TypeHandlerRegistry&lt;br&gt;类型注册器，用来处理类型之间的转换&lt;br&gt;java type + jdbc type + handler&lt;br&gt;同时会解释如下注解：&lt;br&gt;&lt;span&gt;MappedJdbcTypes&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; MappedTypes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
+        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-21" value="TypeHandlerRegistry&lt;br&gt;类型注册器，用来处理类型之间的转换&lt;br&gt;构造方法初始化一系列组件&lt;br&gt;java type + jdbc type + handler&lt;br&gt;同时会解释如下注解：&lt;br&gt;&lt;span&gt;MappedJdbcTypes&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; MappedTypes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="770" y="344" width="220" height="97" as="geometry" />
         </mxCell>
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-24" value="TypeHandler&lt;br&gt;类型处理器，进行类型转换&lt;br&gt;&lt;div&gt;setParameter&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; getResult&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
