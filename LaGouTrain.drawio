@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T01:19:25.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="IPYGuPv4v_SJnxGIXZZ1" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T01:22:36.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2lYcuAmiB8YjgZnfd_KV" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -447,6 +447,9 @@
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-14" value="DataSource&lt;br&gt;获取数据源实例" style="whiteSpace=wrap;html=1;rounded=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="30" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="gDsnpV5gorc6jn4BJ1Pi-17" target="MZUzCvuf2tTJXR3F6CM8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-17" value="Environment&lt;br&gt;数据源环境类&lt;br&gt;：transactionFactory&lt;br&gt;：dataSource" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="555" y="-170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -499,6 +502,9 @@
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-1" value="DefaultSqlSession" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="580" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-4" value="设置在配置类中configuration.setEnvironment(" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry x="502.5" y="-300" width="225" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
