@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T02:54:45.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="i8d9dNyhhbaniARymjr1" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T02:57:10.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="83wR0i7SnU1g_gFm-37z" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -603,7 +603,7 @@
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-33" value="结果处理器（DefaultResultSetHandler）&lt;br&gt;configuration.newResultSetHandler&lt;br&gt;：handleResultSets(Statement stmt)&lt;br&gt;：getRowValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="110" y="1753" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MZUzCvuf2tTJXR3F6CM8-35" value="根据resultType去typeHandlerRegistry中查找是否有合适的处理器，如果没有，就反射创建一个对象，然后赋值&lt;br&gt;需要对象有Set方法，根据Set方法获取到参数类型，进而获取到TypeHandler，" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-35" value="根据resultType去typeHandlerRegistry中查找是否有合适的处理器，如果没有，就反射创建一个对象，然后赋值&lt;br&gt;需要对象有Set方法，，" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="-210" y="1610" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
@@ -612,14 +612,14 @@
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="MZUzCvuf2tTJXR3F6CM8-39" target="MZUzCvuf2tTJXR3F6CM8-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZUzCvuf2tTJXR3F6CM8-39" value="createAutomaticMappings&lt;br&gt;自动生成映射，根据数据库列名去对象中查找是否有Set方法，" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="132.5" y="1910" width="180" height="60" as="geometry" />
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-39" value="createAutomaticMappings&lt;br&gt;自动生成映射，根据数据库列名去对象中查找是否有Set方法，根据Set方法获取到参数类型，进而获取到TypeHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry x="120" y="1910" width="207.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-41" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="162.5" y="2050" width="120" height="60" as="geometry" />
+          <mxGeometry x="163.75" y="2060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-43" value="注：可配置是否使用UnderscoreToCamelCase，默认不使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
-          <mxGeometry x="273" y="1950" width="220" height="40" as="geometry" />
+          <mxGeometry x="291.5" y="1980" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
