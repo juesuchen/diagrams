@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T22:00:17.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ylOUVxvoqdq4vUgJfUZe" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T22:01:14.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="jqK9zlq7u7fswniK-aXy" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -460,8 +460,8 @@
         <mxCell id="gDsnpV5gorc6jn4BJ1Pi-21" value="TypeHandlerRegistry&lt;br&gt;类型注册器，用来处理类型之间的转换&lt;br&gt;构造方法初始化一系列组件&lt;br&gt;java type + jdbc type + handler&lt;br&gt;同时会解释如下注解：&lt;br&gt;&lt;span&gt;MappedJdbcTypes&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; MappedTypes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
           <mxGeometry x="770" y="344" width="220" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-24" value="TypeHandler&lt;br&gt;类型处理器，进行类型转换&lt;br&gt;&lt;div&gt;setParameter&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; getResult&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
-          <mxGeometry x="795" y="532.5" width="170" height="70.5" as="geometry" />
+        <mxCell id="gDsnpV5gorc6jn4BJ1Pi-24" value="TypeHandler&lt;br&gt;类型处理器，进行设置参数和获取数据时，采用哪种方式&lt;br&gt;&lt;div&gt;setParameter&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; getResult&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" vertex="1">
+          <mxGeometry x="787.5" y="529" width="185" height="77.5" as="geometry" />
         </mxCell>
         <mxCell id="3caJ7_Y0QrfHwFQVCA8B-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x6rgjDe1mu-2xuDdk9oM-1" source="3caJ7_Y0QrfHwFQVCA8B-0" target="3caJ7_Y0QrfHwFQVCA8B-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
