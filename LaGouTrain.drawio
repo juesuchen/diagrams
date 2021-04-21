@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T01:22:36.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2lYcuAmiB8YjgZnfd_KV" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T01:31:46.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Z-KAzH1ZpsP86Dbhk1H_" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -500,11 +500,39 @@
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-0" value="DefaultSqlSessionFactory&lt;br&gt;根据Configuration构建" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="548.5" y="620" width="183" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MZUzCvuf2tTJXR3F6CM8-1" value="DefaultSqlSession" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="MZUzCvuf2tTJXR3F6CM8-1" target="MZUzCvuf2tTJXR3F6CM8-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="700" />
+              <mxPoint x="840" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-9" value="configuration.newExecutor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MZUzCvuf2tTJXR3F6CM8-8">
+          <mxGeometry x="0.3591" y="4" relative="1" as="geometry">
+            <mxPoint x="-35" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-1" value="DefaultSqlSession&lt;br&gt;：configuration&lt;br&gt;：executor&lt;br&gt;：autoCommit" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="580" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZUzCvuf2tTJXR3F6CM8-4" value="设置在配置类中configuration.setEnvironment(" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
           <mxGeometry x="502.5" y="-300" width="225" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-11" value="如果开启缓存&lt;br&gt;cacheEnabled" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="MZUzCvuf2tTJXR3F6CM8-7" target="MZUzCvuf2tTJXR3F6CM8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-7" value="根据配置生成执行器Executor&lt;br&gt;BatchExecutor / SimpleExecutor" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry x="951.25" y="670" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x6rgjDe1mu-2xuDdk9oM-1" source="MZUzCvuf2tTJXR3F6CM8-10" target="MZUzCvuf2tTJXR3F6CM8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-10" value="则使用装饰器模式，包装原执行器&lt;br&gt;new CachingExecutor(executor)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry x="1340" y="665" width="278.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MZUzCvuf2tTJXR3F6CM8-12" value="最后使用插件进行进一步包装&lt;br&gt;interceptorChain.pluginAll(executor)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="x6rgjDe1mu-2xuDdk9oM-1">
+          <mxGeometry x="1369.0600000000002" y="780" width="220.63" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
