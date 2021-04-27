@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T08:38:45.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="M4awHmTfbFd1LuJproD_" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T08:59:43.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="wDaBOhGzWCtHD_1A3sX3" version="14.6.5" type="github">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="第 1 页">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="DC7e0HeSG_NtiGx8V0Lg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DC7e0HeSG_NtiGx8V0Lg-1" target="DC7e0HeSG_NtiGx8V0Lg-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-1" value="项目&lt;br&gt;ProjStruc--proj_struc&lt;br&gt;包含城市、项目，销售组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-1" value="项目&lt;br&gt;proj_struc&lt;br&gt;包含城市、项目，销售组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="274" y="215" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DC7e0HeSG_NtiGx8V0Lg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC7e0HeSG_NtiGx8V0Lg-2" target="DC7e0HeSG_NtiGx8V0Lg-3">
@@ -16,14 +16,14 @@
         <mxCell id="DC7e0HeSG_NtiGx8V0Lg-2" value="城市&lt;br&gt;后台管理员设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="50" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-3" value="城市定位配置&lt;br&gt;GpsCity--gps_city&lt;br&gt;配置城市定位信息，省，区，经度，纬度等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-3" value="城市定位配置&lt;br&gt;gps_city&lt;br&gt;配置城市定位信息，省，区，经度，纬度等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="274" y="50" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DC7e0HeSG_NtiGx8V0Lg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC7e0HeSG_NtiGx8V0Lg-7" target="DC7e0HeSG_NtiGx8V0Lg-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-7" value="城市楼盘配置&lt;br&gt;ProjCityRel--proj_city_rel&lt;br&gt;绑定项目和城市的关系，即为楼盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="50" width="140" height="70" as="geometry" />
+        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-7" value="城市楼盘配置&lt;br&gt;proj_city_rel&lt;br&gt;绑定项目、城市，销售组织&lt;br&gt;&lt;span style=&quot;color: rgb(102 , 102 , 102) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;是否上架，是否可报备&lt;/span&gt;&lt;br style=&quot;color: rgb(102 , 102 , 102) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; text-align: left&quot;&gt;即为楼盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DC7e0HeSG_NtiGx8V0Lg-9" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;手动录入数据库&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC7e0HeSG_NtiGx8V0Lg-8" target="DC7e0HeSG_NtiGx8V0Lg-1">
           <mxGeometry relative="1" as="geometry" />
@@ -31,8 +31,20 @@
         <mxCell id="DC7e0HeSG_NtiGx8V0Lg-8" value="营销系统" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="50" y="210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="50" width="140" height="70" as="geometry" />
+        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC7e0HeSG_NtiGx8V0Lg-11" target="DC7e0HeSG_NtiGx8V0Lg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-11" value="城市楼盘基础配置&lt;br&gt;proj_configure&lt;br&gt;基本信息，主图，户型图，实景图等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="60" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-13" value="楼盘详情配置&lt;br&gt;proj_information_content&lt;br&gt;根据详情的模板，配置具体属性值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="210" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DC7e0HeSG_NtiGx8V0Lg-15" target="DC7e0HeSG_NtiGx8V0Lg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DC7e0HeSG_NtiGx8V0Lg-15" value="楼盘详情字段模板配置&lt;br&gt;proj_information_template&lt;br&gt;配置楼盘详情有什么属性，比如：容积率，绿化率，供电方式，建筑类型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="207.5" width="200" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
