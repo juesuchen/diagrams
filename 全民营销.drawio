@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T08:10:00.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mZWeVopgNQdfqvPUCmto" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-28T08:45:22.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ysTEdeEbM3CKKQXB44D8" version="14.6.6" type="github" pages="2">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,17 +89,20 @@
         <mxCell id="zMM6IemWBoXINyx8_3QI-3" value="经纪人信息表&lt;br&gt;agent_login&lt;br&gt;保存经纪人信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="300" width="180" height="85" as="geometry" />
         </mxCell>
+        <mxCell id="zKEzlOZNm5KmkRPCfUf5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zMM6IemWBoXINyx8_3QI-4" target="zKEzlOZNm5KmkRPCfUf5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-4" value="置业顾问信息表&lt;br&gt;sale_main&lt;br&gt;保存置业顾问信息&lt;br&gt;楼盘ID，员工信息&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;注：置业顾问不能报备本项目客户&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="300" width="220" height="85" as="geometry" />
+          <mxGeometry x="193.5" y="305" width="220" height="85" as="geometry" />
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-5" value="经纪人积分表&lt;br&gt;points_log&lt;br&gt;保存经纪人积分信息&lt;br&gt;（经纪人ID，楼盘ID，积分类型，积分值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="442.5" width="180" height="85" as="geometry" />
+          <mxGeometry x="470" y="597.5" width="180" height="85" as="geometry" />
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zMM6IemWBoXINyx8_3QI-6" target="zMM6IemWBoXINyx8_3QI-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-6" value="积分配置表&lt;br&gt;points_rule_config&lt;br&gt;配置不同经纪人类型不同情况下获取的积分值&lt;br&gt;（经纪人类别，启用标识，积分类型，积分值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="585" width="260" height="85" as="geometry" />
+          <mxGeometry x="430" y="740" width="260" height="85" as="geometry" />
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-8" value="经纪人客户关系表&lt;br&gt;custom_agent_rel&lt;br&gt;（经纪人ID，客户ID）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="442.5" width="180" height="85" as="geometry" />
@@ -108,6 +111,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zKEzlOZNm5KmkRPCfUf5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zMM6IemWBoXINyx8_3QI-9" target="zKEzlOZNm5KmkRPCfUf5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKEzlOZNm5KmkRPCfUf5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zMM6IemWBoXINyx8_3QI-9" target="zKEzlOZNm5KmkRPCfUf5-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-9" value="报备客户表&lt;br&gt;custom_report&lt;br&gt;（客户基本信息，报备状态，到访日期，楼盘ID，项目ID，销售组织，经纪人ID，名称）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -124,6 +130,9 @@
         </mxCell>
         <mxCell id="zKEzlOZNm5KmkRPCfUf5-4" value="客户经纪人索引表&lt;br&gt;custom_agent_index&lt;br&gt;（报备ID，经纪人ID，&lt;br&gt;客户基本信息，报备状态，报备日期，楼盘ID，置业顾问ID）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="730" width="260" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zKEzlOZNm5KmkRPCfUf5-6" value="报备客户-置业顾问关系custom_sale_rel&lt;br&gt;（置业顾问编码，报备客户UUID，分配起始日期，分配结束日期）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213.5" y="435" width="180" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
