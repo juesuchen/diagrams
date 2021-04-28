@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T01:20:33.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Iv8H5GtqZpQvH654bT6g" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T02:24:37.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="p4o-NYfTwd-N7RKFIuw2" version="14.6.6" type="github">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="第 1 页">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,6 +79,9 @@
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-1" value="管理员分配楼盘权限" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zMM6IemWBoXINyx8_3QI-2" value="&lt;br&gt;项目员工&lt;br&gt;hf_proj_emp&lt;br&gt;楼盘ID，员工信息，岗位&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;注：该项目员工不可推荐本项目&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="287.5" width="180" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
