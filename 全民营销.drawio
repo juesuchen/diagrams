@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T04:01:00.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="UTRKfmSrEOjtchPr0odd" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T07:04:06.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="RMymKKPTkB-s9LGPgUm1" version="14.6.6" type="github">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="第 1 页">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,14 +80,17 @@
         <mxCell id="zMM6IemWBoXINyx8_3QI-1" value="管理员分配楼盘权限" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zMM6IemWBoXINyx8_3QI-2" value="&lt;br&gt;项目员工&lt;br&gt;hf_proj_emp&lt;br&gt;楼盘ID，员工信息，岗位&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;注：该项目员工不可推荐本项目&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="290" width="180" height="85" as="geometry" />
+        <mxCell id="zMM6IemWBoXINyx8_3QI-2" value="项目员工&lt;br&gt;hf_proj_emp&lt;br&gt;楼盘ID，员工信息，岗位&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;注：该项目员工不可推荐本项目&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="300" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zMM6IemWBoXINyx8_3QI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zMM6IemWBoXINyx8_3QI-3" target="zMM6IemWBoXINyx8_3QI-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-3" value="经纪人信息表&lt;br&gt;agent_login&lt;br&gt;保存经纪人信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="290" width="180" height="85" as="geometry" />
+          <mxGeometry x="-50" y="300" width="180" height="85" as="geometry" />
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-4" value="置业顾问信息表&lt;br&gt;sale_main&lt;br&gt;保存置业顾问信息&lt;br&gt;楼盘ID，员工信息&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;注：置业顾问不能报备本项目客户&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="290" width="220" height="85" as="geometry" />
+          <mxGeometry x="210" y="300" width="220" height="85" as="geometry" />
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-5" value="经纪人积分表&lt;br&gt;points_log&lt;br&gt;保存经纪人积分信息&lt;br&gt;（经纪人ID，楼盘ID，积分类型，积分值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="442.5" width="180" height="85" as="geometry" />
@@ -97,6 +100,15 @@
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-6" value="积分配置表&lt;br&gt;points_rule_config&lt;br&gt;配置不同经纪人类型不同情况下获取的积分值&lt;br&gt;（经纪人类别，启用标识，积分类型，积分值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="585" width="260" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zMM6IemWBoXINyx8_3QI-8" value="经纪人客户关系表&lt;br&gt;custom_agent_rel&lt;br&gt;（经纪人ID，客户ID）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="442.5" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zMM6IemWBoXINyx8_3QI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zMM6IemWBoXINyx8_3QI-9" target="zMM6IemWBoXINyx8_3QI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zMM6IemWBoXINyx8_3QI-9" value="报备客户表&lt;br&gt;custom_report&lt;br&gt;（客户基本信息，报备状态，到访日期，楼盘ID，项目ID，销售组织，经纪人ID，名称）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="585" width="180" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
