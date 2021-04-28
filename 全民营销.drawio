@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T08:58:59.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="LN5VPgY0C49LLTae7kF-" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-28T09:31:17.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="wTThN_Jg8OEKRFczRzD9" version="14.6.6" type="github" pages="2">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,6 +136,9 @@
         </mxCell>
         <mxCell id="zKEzlOZNm5KmkRPCfUf5-9" value="报备信息&lt;br&gt;agent_mess&lt;br&gt;保存经纪人报备信息&lt;br&gt;（经纪人ID，客户ID，内容，是否已读）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="730" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zKEzlOZNm5KmkRPCfUf5-10" value="客户跟进记录&lt;br&gt;custom_follow&lt;br&gt;保存经纪人报备信息&lt;br&gt;（经纪人ID，客户ID，内容，是否已读）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="860" width="180" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
