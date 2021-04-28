@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T07:44:15.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="68O-ahptGrVuy0rZyngC" version="14.6.6" type="github">
-  <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="第 1 页">
+<mxfile host="app.diagrams.net" modified="2021-04-28T07:57:42.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="jfpGv4XUKAt3X4yrLahS" version="14.6.6" type="github" pages="2">
+  <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -113,6 +113,14 @@
         <mxCell id="zMM6IemWBoXINyx8_3QI-15" value="代理公司信息表&lt;br&gt;sale_partner&lt;br&gt;代理公司基本信息&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;某些经纪人会从属于&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-340" y="305" width="180" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ph4oWkCc1so2p2m-8Aud" name="报备流程">
+    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="snALRQf0KPC2thOi0vR9-0" />
+        <mxCell id="snALRQf0KPC2thOi0vR9-1" parent="snALRQf0KPC2thOi0vR9-0" />
       </root>
     </mxGraphModel>
   </diagram>
