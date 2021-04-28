@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T04:00:21.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="hYT1ygKkBDlNOooB5gtE" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T04:01:00.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="UTRKfmSrEOjtchPr0odd" version="14.6.6" type="github">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="第 1 页">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,8 +92,11 @@
         <mxCell id="zMM6IemWBoXINyx8_3QI-5" value="经纪人积分表&lt;br&gt;points_log&lt;br&gt;保存经纪人积分信息&lt;br&gt;（经纪人ID，楼盘ID，积分类型，积分值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="442.5" width="180" height="85" as="geometry" />
         </mxCell>
+        <mxCell id="zMM6IemWBoXINyx8_3QI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zMM6IemWBoXINyx8_3QI-6" target="zMM6IemWBoXINyx8_3QI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-6" value="积分配置表&lt;br&gt;points_rule_config&lt;br&gt;配置不同经纪人类型不同情况下获取的积分值&lt;br&gt;（经纪人类别，启用标识，积分类型，积分值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="585" width="260" height="85" as="geometry" />
+          <mxGeometry x="170" y="585" width="260" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
