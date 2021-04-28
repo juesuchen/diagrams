@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T08:45:22.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ysTEdeEbM3CKKQXB44D8" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-28T08:58:59.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="LN5VPgY0C49LLTae7kF-" version="14.6.6" type="github" pages="2">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,6 +133,9 @@
         </mxCell>
         <mxCell id="zKEzlOZNm5KmkRPCfUf5-6" value="报备客户-置业顾问关系custom_sale_rel&lt;br&gt;（置业顾问编码，报备客户UUID，分配起始日期，分配结束日期）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="213.5" y="435" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zKEzlOZNm5KmkRPCfUf5-9" value="报备信息&lt;br&gt;agent_mess&lt;br&gt;保存经纪人报备信息&lt;br&gt;（经纪人ID，客户ID，内容，是否已读）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="730" width="180" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
