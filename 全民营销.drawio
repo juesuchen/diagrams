@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T08:08:56.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="tHJsorNxcw0QWvi0qema" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-28T08:10:00.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mZWeVopgNQdfqvPUCmto" version="14.6.6" type="github" pages="2">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,8 +122,8 @@
         <mxCell id="zKEzlOZNm5KmkRPCfUf5-2" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;经纪人报备&lt;/span&gt;&#xa;&#xa;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-220" y="597.5" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zKEzlOZNm5KmkRPCfUf5-4" value="客户经纪人索引表&lt;br&gt;custom_agent_index&lt;br&gt;（报备ID，经纪人ID，&lt;br&gt;客户基本信息，报备状态，报备日期，楼盘ID）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="730" width="180" height="85" as="geometry" />
+        <mxCell id="zKEzlOZNm5KmkRPCfUf5-4" value="客户经纪人索引表&lt;br&gt;custom_agent_index&lt;br&gt;（报备ID，经纪人ID，&lt;br&gt;客户基本信息，报备状态，报备日期，楼盘ID，置业顾问ID）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="730" width="260" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
