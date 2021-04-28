@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T07:04:41.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="iW6UxAG0Icnpv8lAFfAY" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T07:44:15.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="68O-ahptGrVuy0rZyngC" version="14.6.6" type="github">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="第 1 页">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,6 +109,9 @@
         </mxCell>
         <mxCell id="zMM6IemWBoXINyx8_3QI-9" value="报备客户表&lt;br&gt;custom_report&lt;br&gt;（客户基本信息，报备状态，到访日期，楼盘ID，项目ID，销售组织，经纪人ID，名称）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="585" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zMM6IemWBoXINyx8_3QI-15" value="代理公司信息表&lt;br&gt;sale_partner&lt;br&gt;代理公司基本信息&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;某些经纪人会从属于&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="305" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
