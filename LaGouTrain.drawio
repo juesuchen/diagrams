@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T01:53:07.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Yv0F6A3Ox9UXDw4h_R7M" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-29T01:53:28.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TYWzy1PCYpNgl6qWsC7U" version="14.6.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -695,14 +695,14 @@
         <mxCell id="CKYEElKxBUjVJn_sR5-g-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CKYEElKxBUjVJn_sR5-g-1" source="CKYEElKxBUjVJn_sR5-g-11" target="CKYEElKxBUjVJn_sR5-g-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CKYEElKxBUjVJn_sR5-g-11" value="调用BeanPostProcessor的预处理方法postProcessBeforeInitialization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
+        <mxCell id="CKYEElKxBUjVJn_sR5-g-11" value="调用BeanPostProcessor的预处理方法postProcessBeforeInitialization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
           <mxGeometry x="410" y="150" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CKYEElKxBUjVJn_sR5-g-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CKYEElKxBUjVJn_sR5-g-1" source="CKYEElKxBUjVJn_sR5-g-12" target="CKYEElKxBUjVJn_sR5-g-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CKYEElKxBUjVJn_sR5-g-12" value="调用Bean的实例化方法init-method" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
-          <mxGeometry x="460" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CKYEElKxBUjVJn_sR5-g-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CKYEElKxBUjVJn_sR5-g-1" source="CKYEElKxBUjVJn_sR5-g-14" target="CKYEElKxBUjVJn_sR5-g-12">
           <mxGeometry relative="1" as="geometry" />
@@ -721,7 +721,7 @@
         <mxCell id="CKYEElKxBUjVJn_sR5-g-24" value="singleton" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CKYEElKxBUjVJn_sR5-g-1" source="CKYEElKxBUjVJn_sR5-g-15" target="CKYEElKxBUjVJn_sR5-g-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CKYEElKxBUjVJn_sR5-g-15" value="调用BeanPostProcessor的后处理方法postProcessAfterInitialization" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
+        <mxCell id="CKYEElKxBUjVJn_sR5-g-15" value="调用BeanPostProcessor的后处理方法postProcessAfterInitialization" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
           <mxGeometry x="395" y="500" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CKYEElKxBUjVJn_sR5-g-20" value="将准备好的Bean交给调用者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
