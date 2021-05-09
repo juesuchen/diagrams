@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T01:02:25.242Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="uenelOn2SljvxMcI8O11" version="14.6.11" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-09T01:02:34.064Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ZeoLihhgIHa82M2wXg4t" version="14.6.11" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="734" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -771,7 +771,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ptu7uZY51t3QnjuSSCgO-2" value="&lt;b&gt;AbstractApplicationContext#refresh&lt;/b&gt;&lt;br&gt;1、prepareRefresh：刷新前的预处理，一般在Web场景下，初始化Properties&lt;br&gt;2、obtainFreshBeanFactory：获取BeanFactory；默认实现是DefaultListableBeanFactory&lt;br&gt;3、prepareBeanFactory：进一步设置BeanFactory，如ClassLoader，Bean的Aware处理器&lt;br&gt;4、invokeBeanFactoryPostProcessors(beanFactory);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a1a4eP3ZieAN4zQy85GO-1">
-          <mxGeometry x="10" y="247.5" width="365" height="260" as="geometry" />
+          <mxGeometry x="47.5" y="280" width="365" height="260" as="geometry" />
         </mxCell>
         <mxCell id="ptu7uZY51t3QnjuSSCgO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a1a4eP3ZieAN4zQy85GO-1" source="ptu7uZY51t3QnjuSSCgO-4" target="ptu7uZY51t3QnjuSSCgO-6">
           <mxGeometry relative="1" as="geometry" />
