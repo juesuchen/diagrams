@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T09:53:48.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Sl6ySecJ-Jauw5ngb75D" version="14.6.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-10T10:19:00.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="l5wtB2njjZZQHo2iUvEv" version="14.6.11" type="github" pages="3">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="全民营销基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -437,6 +437,9 @@
         <mxCell id="4I-Y4CY4IoCCVbybdBC2-0" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;楼盘项目表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;dh_project&amp;nbsp;p&lt;/span&gt;&lt;br&gt;&lt;br&gt;（id,项目名，来源公司，城市，销售组织Idsale_org_id，公司组织orgId,华发项目hfProjectId，行业industryid, 支付账号id）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
           <mxGeometry x="597" y="585" width="230" height="85" as="geometry" />
         </mxCell>
+        <mxCell id="H5xam4ZnMJWNYW0Ukx5R-3" value="v.logid=l.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a6vmL6NPpANkfZxdNvhj-1" source="4I-Y4CY4IoCCVbybdBC2-3" target="H5xam4ZnMJWNYW0Ukx5R-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4I-Y4CY4IoCCVbybdBC2-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 8.0000pt&quot;&gt;门岗闪录信息表&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;dh_project_visitor v&lt;/span&gt;&lt;br&gt;（&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;项目projectid&lt;/span&gt;，客户名称，性别，手机&lt;br&gt;登录pad的账户userKey,客户到访类型visitType&lt;br&gt;销售openid, 中介agencyId，&lt;span style=&quot;font-size: 10.6667px&quot;&gt;置业顾问客户表salerUserId&lt;/span&gt;，关联dh_project_visit_log的logId，当天最后一次到访时间）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
           <mxGeometry x="-305" y="276.25" width="370" height="112.5" as="geometry" />
         </mxCell>
@@ -462,6 +465,9 @@
         </mxCell>
         <mxCell id="H5xam4ZnMJWNYW0Ukx5R-0" value="&lt;span style=&quot;font-size: 8pt&quot;&gt;行业表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;g_industry&amp;nbsp;i&lt;br&gt;&lt;/span&gt;比如房地产，保险，汽车。。。&lt;br&gt;（id，行业名称，行业词）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
           <mxGeometry x="960" y="750" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="H5xam4ZnMJWNYW0Ukx5R-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;门岗闪录日志表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;dh_project_visit_log l&lt;/span&gt;&lt;br&gt;（&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;项目projectid&lt;/span&gt;，到访人数,客户到访类型visitType&lt;br&gt;pad端登录的账户userKey, 中介agencyId）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
+          <mxGeometry x="-720" y="295.63" width="270" height="73.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
