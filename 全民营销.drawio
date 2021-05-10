@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T06:30:52.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="tFVVOzgQqFyuusjCfCt3" version="14.6.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-10T06:46:44.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="4ZVPL8KIMKHOlJPzyzaG" version="14.6.11" type="github" pages="3">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -375,8 +375,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xbkf7FIORTob7Jgf-nxj-0" value="&lt;span style=&quot;font-size: 8pt&quot;&gt;置业顾问客户表&lt;br&gt;&lt;/span&gt;dh_crm_saleruser csu&lt;br&gt;保存置业顾问和客户的信息&lt;br&gt;（置业顾问&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;saleropenid&lt;/span&gt;,&lt;br&gt;用户&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;useropenid&lt;/span&gt;，营销用户&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;yxuserid&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
-          <mxGeometry x="80" y="470" width="250" height="85" as="geometry" />
+        <mxCell id="E7OQPSqLF9QRcHEO5MaV-3" value="csu.firmId=sf.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a6vmL6NPpANkfZxdNvhj-1" source="xbkf7FIORTob7Jgf-nxj-0" target="E7OQPSqLF9QRcHEO5MaV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xbkf7FIORTob7Jgf-nxj-0" value="&lt;span style=&quot;font-size: 8pt&quot;&gt;置业顾问客户表&lt;br&gt;&lt;/span&gt;dh_crm_saleruser csu&lt;br&gt;保存置业顾问和客户的信息&lt;br&gt;（置业顾问&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;saleropenid&lt;/span&gt;,&lt;br&gt;用户&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;useropenid&lt;/span&gt;，营销用户&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;yxuserid，客户名称，手机，来源渠道，购房目的，成交状态&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;awardtype，项目id，用户来源，关联的外部系统&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;userid，关联中介公司firmId&lt;/span&gt;&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
+          <mxGeometry x="65" y="452.5" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="csVdjd3QxmtqESrYy_Pv-3" value="agent.hfAgentId=yau.hfAgentId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="a6vmL6NPpANkfZxdNvhj-1" source="xbkf7FIORTob7Jgf-nxj-1" target="csVdjd3QxmtqESrYy_Pv-0">
           <mxGeometry relative="1" as="geometry" />
@@ -394,7 +397,13 @@
           <mxGeometry x="545" y="790" width="230" height="85" as="geometry" />
         </mxCell>
         <mxCell id="csVdjd3QxmtqESrYy_Pv-5" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;用户表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;g_user u&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;保存&lt;span style=&quot;font-size: 10.6667px&quot;&gt;全员营销用户&lt;/span&gt;的信息&lt;br&gt;（openid，mobile,name,会员卡号，关注状态state,积分，uuid,unionid,关联的如是openid,取关时间）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
-          <mxGeometry x="125" y="630" width="230" height="85" as="geometry" />
+          <mxGeometry x="115" y="650" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="E7OQPSqLF9QRcHEO5MaV-1" value="&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;用户来源&lt;/b&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;：1全员营销录入，2手工录入，3扫描二维码 4明源导入 5传播留电用户&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;b style=&quot;font-size: 12px&quot;&gt;成交状态&lt;/b&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;：-2退筹，-1新客户认定失败，1新客户认定，2到访，3办卡，4成交，5放款&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;b&gt;客户渠道：&lt;/b&gt;客户渠道 自然到访，电转访，老业主转介绍，中介&amp;lt;开发商&amp;gt;，中介&amp;lt;代理&amp;gt;，圈层&amp;lt;开发商&amp;gt;，圈层&amp;lt;代理&amp;gt;， Call客&amp;lt;开发商&amp;gt;，Call客&amp;lt;代理&amp;gt;，转介&amp;lt;开发商&amp;gt;，转介&amp;lt;代理&amp;gt;，网络渠道（ 安居客、百度、新浪、搜狐、腾讯、其他&amp;lt;请说明&amp;gt; ,新带新&lt;/div&gt;&lt;b&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=2;spacingBottom=0;spacingTop=0;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
+          <mxGeometry x="-350" y="120" width="970" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="E7OQPSqLF9QRcHEO5MaV-2" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;置业顾问代理公司&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;dh_crm_salerfirm&amp;nbsp;sf&lt;/span&gt;&lt;br&gt;&lt;br&gt;（代理公司名）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
+          <mxGeometry x="115" y="290" width="230" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
