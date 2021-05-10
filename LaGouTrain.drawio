@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T15:42:40.412Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="cVeCf_zxqMWcC1B_IJfU" version="14.6.11" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-10T16:11:24.645Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="8Eq1FtW0fthlftQ3FWFA" version="14.6.11" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="734" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -984,8 +984,25 @@
         <mxCell id="vuukjNI5-GVYHAFR5fei-4" value="&lt;span&gt;&lt;b&gt;DefaultListableBeanFactory&lt;/b&gt;&lt;br&gt;遍历每个beanDefinitionNames，创建单例的Bean&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
           <mxGeometry x="680.01" y="1525" width="260" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-9" value="单例模式&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;getSingleton&lt;br&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="vuukjNI5-GVYHAFR5fei-6" target="vuukjNI5-GVYHAFR5fei-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vuukjNI5-GVYHAFR5fei-6" value="&lt;span&gt;&lt;b&gt;AbstractBeanFactory&lt;br&gt;&lt;/b&gt;1、先从getSingleton(beanName)获取，&lt;br&gt;2、获取不到则处理getDependsOn()，先实例化依赖的Bean&lt;br&gt;3、如果是isSingleton，则创建单例实例&lt;br&gt;4、如果是isPrototype，则创建新的实例&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
           <mxGeometry x="1060" y="1525" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-8" value="&lt;span&gt;&lt;b&gt;AbstractAutowireCapableBeanFactory#doCreateBean&lt;/b&gt;&lt;br&gt;1、通过反射创建对象实例，&lt;br&gt;2、如果earlySingletonExposure允许提前暴露，则放入到&lt;/span&gt;singletonFactories中，&lt;span&gt;&lt;br&gt;&lt;div&gt;this.singletonFactories.put(beanName, singletonFactory);&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;this.earlySingletonObjects.remove(beanName);&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;this.registeredSingletons.add(beanName);&lt;/div&gt;&lt;div&gt;3、populateBean(beanName, mbd, instanceWrapper)，填充对象属性&lt;/div&gt;&lt;div&gt;4、initializeBean(beanName, exposedObject, mbd);初始化对象&lt;/div&gt;&lt;div&gt;4.1、会调用一系列的invokeAwareMethods&lt;/div&gt;&lt;div&gt;4.2、调用postProcessBeforeInitialization初始化前方法&lt;/div&gt;&lt;div&gt;4.3、调用初始化方法invokeInitMethods(beanName, wrappedBean, mbd);&lt;/div&gt;&lt;div&gt;4.4、调用postProcessAfterInitialization初始化后方法&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="2150" y="1468.75" width="470" height="202.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="vuukjNI5-GVYHAFR5fei-10" target="vuukjNI5-GVYHAFR5fei-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-12" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;singletonFactory.getObject();&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vuukjNI5-GVYHAFR5fei-11">
+          <mxGeometry x="0.2397" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-10" value="&lt;div&gt;&lt;b&gt;DefaultSingletonBeanRegistry#getSingleton&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;beforeSingletonCreation(beanName)&lt;/div&gt;&lt;div&gt;&lt;span&gt;singletonObject = singletonFactory.getObject();&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;afterSingletonCreation(beanName);&lt;/div&gt;&lt;div&gt;&lt;span&gt;addSingleton(beanName, singletonObject);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="1610" y="1490" width="280" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
