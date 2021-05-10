@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T14:55:19.220Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="2CnuxU0mcRymsGQQio_o" version="14.6.11" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-10T15:19:06.933Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="g796JsHjRiYbTLBFXPed" version="14.6.11" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="734" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -939,11 +939,47 @@
         <mxCell id="UGO_klaFAyMMaE9UCpCb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="UGO_klaFAyMMaE9UCpCb-3" target="UGO_klaFAyMMaE9UCpCb-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UGO_klaFAyMMaE9UCpCb-3" value="invokeBeanFactoryPostProcessors(beanFactory)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+        <mxCell id="UGO_klaFAyMMaE9UCpCb-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="UGO_klaFAyMMaE9UCpCb-3" target="UGO_klaFAyMMaE9UCpCb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGO_klaFAyMMaE9UCpCb-3" value="invokeBeanFactoryPostProcessors(beanFactory)&lt;br&gt;这里会调用到&lt;b&gt;BeanFactoryPostProcessor&lt;/b&gt;的接口实现类" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
           <mxGeometry x="123.13" y="1020" width="293.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UGO_klaFAyMMaE9UCpCb-5" value="ConfigurationClassPostProcessor&lt;br&gt;处理Bean定义，从SpringConfig中开始解释，递归处理每一个解释出来bean定义" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
           <mxGeometry x="505" y="1015" width="203.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UGO_klaFAyMMaE9UCpCb-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="UGO_klaFAyMMaE9UCpCb-8" target="UGO_klaFAyMMaE9UCpCb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGO_klaFAyMMaE9UCpCb-8" value="registerBeanPostProcessors(beanFactory)&lt;br&gt;这里会寻找&lt;b&gt;BeanPostProcessor&lt;/b&gt;的接口实现类并注册到容器中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="123.13" y="1120" width="293.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UGO_klaFAyMMaE9UCpCb-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="UGO_klaFAyMMaE9UCpCb-10" target="UGO_klaFAyMMaE9UCpCb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGO_klaFAyMMaE9UCpCb-10" value="initMessageSource();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="123.13" y="1210" width="293.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="UGO_klaFAyMMaE9UCpCb-12" target="vuukjNI5-GVYHAFR5fei-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGO_klaFAyMMaE9UCpCb-12" value="onRefresh();&lt;br&gt;子类实现" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="123.13" y="1300" width="293.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="vuukjNI5-GVYHAFR5fei-0" target="vuukjNI5-GVYHAFR5fei-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-0" value="registerListeners();&lt;br&gt;这里会寻找&lt;b&gt;ApplicationListener&lt;/b&gt;的接口实现类并注册到容器中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="123.13" y="1410" width="293.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-5" value="beanFactory.beanFactory.preInstantiateSingletons();();" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ArGLmb33wXe2RXO0Ywqa-1" source="vuukjNI5-GVYHAFR5fei-2" target="vuukjNI5-GVYHAFR5fei-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-2" value="&lt;b&gt;finishBeanFactoryInitialization(beanFactory);&lt;br&gt;这里会初始化所有单例的bean&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="123.13" y="1540" width="293.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-4" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="583.755" y="1535" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
