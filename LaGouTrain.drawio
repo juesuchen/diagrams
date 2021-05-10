@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T16:47:42.635Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="AONN_ee-QCmyc9QtMMUF" version="14.6.11" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-10T16:51:21.267Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="tvLoNkWqbymfv8ic_2UC" version="14.6.11" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="734" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1015,6 +1015,9 @@
         </mxCell>
         <mxCell id="vuukjNI5-GVYHAFR5fei-17" value="创建完bean后，把对象从二级缓存earlySingletonObjects中转移到一级缓存singletonObjects中，完成对象的实例化。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
           <mxGeometry x="1620" y="1709" width="330" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="vuukjNI5-GVYHAFR5fei-18" value="假设ServiceA-&amp;gt;ServiceB&lt;br&gt;ServiceB-&amp;gt;ServiceA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="2140" y="1680" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
