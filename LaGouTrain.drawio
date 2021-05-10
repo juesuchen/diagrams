@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T15:26:21.669Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="1mLNogM-dHV2cBZT0yxK" version="14.6.11" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-10T15:42:40.412Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="cVeCf_zxqMWcC1B_IJfU" version="14.6.11" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="734" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -984,8 +984,8 @@
         <mxCell id="vuukjNI5-GVYHAFR5fei-4" value="&lt;span&gt;&lt;b&gt;DefaultListableBeanFactory&lt;/b&gt;&lt;br&gt;遍历每个beanDefinitionNames，创建单例的Bean&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
           <mxGeometry x="680.01" y="1525" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vuukjNI5-GVYHAFR5fei-6" value="&lt;span&gt;&lt;b&gt;AbstractBeanFactory&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
-          <mxGeometry x="1070" y="1525" width="260" height="80" as="geometry" />
+        <mxCell id="vuukjNI5-GVYHAFR5fei-6" value="&lt;span&gt;&lt;b&gt;AbstractBeanFactory&lt;br&gt;&lt;/b&gt;1、先从getSingleton(beanName)获取，&lt;br&gt;2、获取不到则处理getDependsOn()，先实例化依赖的Bean&lt;br&gt;3、如果是isSingleton，则创建单例实例&lt;br&gt;4、如果是isPrototype，则创建新的实例&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="ArGLmb33wXe2RXO0Ywqa-1">
+          <mxGeometry x="1060" y="1525" width="350" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
