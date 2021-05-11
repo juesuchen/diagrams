@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T02:25:00.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="epxa09v4sJujg7vhzmTy" version="14.6.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-11T02:49:20.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="JuNfmpAKQzkfLoSthQqo" version="14.6.11" type="github" pages="3">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="全民营销基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -392,13 +392,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4I-Y4CY4IoCCVbybdBC2-4" value="v.salerUserId=csu.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="a6vmL6NPpANkfZxdNvhj-1" source="xbkf7FIORTob7Jgf-nxj-0" target="4I-Y4CY4IoCCVbybdBC2-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-120" y="480" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xbkf7FIORTob7Jgf-nxj-0" value="&lt;span style=&quot;font-size: 8pt&quot;&gt;置业顾问客户表&lt;br&gt;&lt;/span&gt;dh_crm_saleruser csu&lt;br&gt;保存置业顾问和客户的信息&lt;br&gt;（置业顾问&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;saleropenid&lt;/span&gt;,&lt;br&gt;用户&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;useropenid&lt;/span&gt;，营销用户&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;yxuserid，客户名称，手机，来源渠道，购房目的，成交状态&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;awardtype，项目projectid，用户来源，关联的外部系统&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;userid，关联中介公司firmId&lt;/span&gt;&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;" parent="a6vmL6NPpANkfZxdNvhj-1" vertex="1">
           <mxGeometry x="65" y="452.5" width="330" height="120" as="geometry" />
         </mxCell>
@@ -440,6 +433,14 @@
         <mxCell id="H5xam4ZnMJWNYW0Ukx5R-3" value="v.logid=l.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="a6vmL6NPpANkfZxdNvhj-1" source="4I-Y4CY4IoCCVbybdBC2-3" target="H5xam4ZnMJWNYW0Ukx5R-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RCdy6ArOWQ7Q0AkUEOux-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="a6vmL6NPpANkfZxdNvhj-1" source="4I-Y4CY4IoCCVbybdBC2-3" target="xbkf7FIORTob7Jgf-nxj-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RCdy6ArOWQ7Q0AkUEOux-6" value="v.salerUserId=csu.id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RCdy6ArOWQ7Q0AkUEOux-5">
+          <mxGeometry x="0.536" y="1" relative="1" as="geometry">
+            <mxPoint x="-50" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4I-Y4CY4IoCCVbybdBC2-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 8.0000pt&quot;&gt;门岗闪录信息表&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;dh_project_visitor v&lt;/span&gt;&lt;br&gt;（&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;项目projectid&lt;/span&gt;，客户名称，性别，手机&lt;br&gt;登录pad的账户userKey,客户到访类型visitType&lt;br&gt;销售openid, 中介agencyId，&lt;span style=&quot;font-size: 10.6667px&quot;&gt;置业顾问客户表salerUserId&lt;/span&gt;，关联dh_project_visit_log的logId，当天最后一次到访时间）" style="rounded=1;whiteSpace=wrap;html=1;" parent="a6vmL6NPpANkfZxdNvhj-1" vertex="1">
           <mxGeometry x="-305" y="276.25" width="370" height="112.5" as="geometry" />
         </mxCell>
@@ -479,6 +480,19 @@
         </mxCell>
         <mxCell id="RCdy6ArOWQ7Q0AkUEOux-0" value="&lt;span style=&quot;font-size: 8pt&quot;&gt;Pad项目绑定表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;pad_project_bind b&lt;/span&gt;&lt;br&gt;（appid，pad客户端code，projectId，绑定状态state）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
           <mxGeometry x="960" y="450" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RCdy6ArOWQ7Q0AkUEOux-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="a6vmL6NPpANkfZxdNvhj-1" source="RCdy6ArOWQ7Q0AkUEOux-2" target="xbkf7FIORTob7Jgf-nxj-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCdy6ArOWQ7Q0AkUEOux-4" value="cl.salerUserId=csu.id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RCdy6ArOWQ7Q0AkUEOux-3">
+          <mxGeometry x="-0.4709" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCdy6ArOWQ7Q0AkUEOux-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;销售分配客户记录&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;dh_customer_allot_log c&lt;/span&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;l&lt;/span&gt;&lt;br&gt;（&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;项目projectid&lt;/span&gt;，关联dh_crm_saleruser表的salerUserId,新分配的salespersonOpenid,原分配的originSalespersonOpenid，mark）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
+          <mxGeometry x="-600" y="550" width="280" height="89.37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
