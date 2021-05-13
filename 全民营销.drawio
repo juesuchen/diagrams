@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T04:00:15.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="p8BCW6Z_Ub9Bnc-5ipOr" version="14.6.12" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-13T04:12:48.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="M6OE4VwEd428t2oNNv9v" version="14.6.12" type="github" pages="4">
   <diagram id="xIlVCZdDOlZY9Qjr4O-O" name="全民营销基础表">
     <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -504,10 +504,19 @@
           <mxGeometry x="60" y="890" width="125" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KT14gNBmgz2z9NjGAtFl-1" value="sys_user_app&lt;br&gt;区域公众号关系表&lt;br&gt;（区域id，公众号id）" style="rounded=1;whiteSpace=wrap;html=1;" parent="a6vmL6NPpANkfZxdNvhj-1" vertex="1">
-          <mxGeometry x="-150" y="890" width="125" height="70" as="geometry" />
+          <mxGeometry x="-140" y="890" width="125" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KT14gNBmgz2z9NjGAtFl-2" value="g_app&lt;br&gt;应用程序信息表&lt;br&gt;（appid,name）" style="rounded=1;whiteSpace=wrap;html=1;" parent="a6vmL6NPpANkfZxdNvhj-1" vertex="1">
           <mxGeometry x="385" y="890" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rBlM4nsmvf1WgX9zxNUI-0" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;空中团队配置表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_team_group g&lt;/span&gt;&lt;br&gt;（id,团队名称,区域,appid,城市名称,&lt;br&gt;项目id,项目名称,类型【1项目级,2城市级】，状态【启用/停用】&lt;br&gt;）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
+          <mxGeometry x="-550" y="735" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rBlM4nsmvf1WgX9zxNUI-2" value="u.team_id=g.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="a6vmL6NPpANkfZxdNvhj-1" source="rBlM4nsmvf1WgX9zxNUI-1" target="rBlM4nsmvf1WgX9zxNUI-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rBlM4nsmvf1WgX9zxNUI-1" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;空中团队人员表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_team_user u&lt;/span&gt;&lt;br&gt;（销售open_id,销售华发账号user_key,角色【0置业顾问,1负责人】，销售姓名，团队id，状态【启用/停用】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="a6vmL6NPpANkfZxdNvhj-1">
+          <mxGeometry x="-180" y="735" width="230" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
