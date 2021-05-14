@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T09:04:03.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="7lb0u8ednDk_QXdrDPid" version="14.6.12" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-14T09:50:44.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="MvUPKQiaO1hbAAvCPhag" version="14.6.12" type="github" pages="2">
   <diagram id="eaGL7Z7917qESnS54RT0" name="第 1 页">
     <mxGraphModel dx="1609" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nFGt0MqnmTu4ru6C3Byg" name="潜客池">
-    <mxGraphModel dx="1609" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2436" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="UukvisJaQZ7xhcI8X70N-0" />
         <mxCell id="UukvisJaQZ7xhcI8X70N-1" parent="UukvisJaQZ7xhcI8X70N-0" />
@@ -179,6 +179,15 @@
         </mxCell>
         <mxCell id="K4eQCQfbDMpkofptSABG-2" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;空中团队人员表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_team_user u&lt;/span&gt;&lt;br&gt;（销售open_id,销售华发账号user_key,角色【0置业顾问,1负责人】，销售姓名，团队id，状态【启用/停用】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
           <mxGeometry x="-100" y="500" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="K4eQCQfbDMpkofptSABG-3" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;潜客池用户表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_user u&lt;/span&gt;&lt;br&gt;（id，app_id，union_id，nickname，level，open_id，user_id【随机uuid】，del_flag，mobile）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+          <mxGeometry x="-190" y="310" width="290" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="K4eQCQfbDMpkofptSABG-4" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;销售客户关联表&lt;br&gt;cp_saler_user&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&amp;nbsp;u&lt;/span&gt;&lt;br&gt;（id，app_id，销售open_id，user_id，remark，del_flag，mobile，project_name，saler_name，销售userKey，是否接听follow，是否有意向purpose，如是rs_project_id，是否已拨打is_call，最近跟进时间follow_time，cp_user_log表log_id，&lt;br&gt;首次意向时间，首次拨打时间，首次接听时间，&lt;br&gt;is_report，report_time【报备时间】，&lt;br&gt;is_allot【是否分配0否，1项目分配,2城市分配】，&lt;br&gt;level【等级-1D 0C 1B 2A】，&lt;br&gt;project_id【华发项目id，6位】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+          <mxGeometry x="-620" y="280" width="380" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="K4eQCQfbDMpkofptSABG-5" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;推送记录表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;cp_user_log&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&amp;nbsp;u&lt;/span&gt;&lt;br&gt;（id，app_id，union_id，ip，mobile，头像，昵称，open_id，&lt;br&gt;user_id，user_key，如是rs_project_id，project_name，&lt;br&gt;销售open_id，销售姓名，aicall客次数，触达批次batch_id，&lt;br&gt;来源【 0:h5 1:微信小程序 2转介】，来源方式，来源页面id，来源页面标题&lt;br&gt;is_allot【是否分配0否，1项目分配,2城市分配】，&lt;br&gt;转介原销售source_saler_name，source_saler_open_id,&lt;br&gt;转介原项目source_project_id，source_project_name，&lt;br&gt;活动act_id，活动名称act_name&lt;br&gt;project_id【华发项目id，6位】，是否有效is_valid，是否关注is_fans）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+          <mxGeometry x="-1270" y="267.5" width="440" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
