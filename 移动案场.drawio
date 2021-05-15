@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T10:10:19.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="71mSlkxvNIfd6D7b3qBB" version="14.6.12" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-15T00:30:29.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="q2vC-ln3xu_rFDJKGEEC" version="14.6.13" type="github" pages="2">
   <diagram id="eaGL7Z7917qESnS54RT0" name="第 1 页">
-    <mxGraphModel dx="1609" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1747" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
         <mxCell id="XDihBJkEoJ0V1uG7NVt8-10" value="agent.hfAgentId=yau.hfAgentId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="XDihBJkEoJ0V1uG7NVt8-11" target="XDihBJkEoJ0V1uG7NVt8-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDihBJkEoJ0V1uG7NVt8-11" value="&lt;span style=&quot;font-size: 8pt&quot;&gt;全员营销用户表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;dh_yx_agentuser yau&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;保存&lt;span style=&quot;font-size: 10.6667px&quot;&gt;全员营销用户&lt;/span&gt;的信息&lt;br&gt;（华发中介的id，华发客户的id，&lt;br&gt;名称，手机）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="XDihBJkEoJ0V1uG7NVt8-11" value="&lt;span style=&quot;font-size: 8pt&quot;&gt;代理公司与销售关系表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;dh_yx_agentuser yau&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;（华发中介的id，华发客户的id，&lt;br&gt;名称，手机）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="470" width="180" height="85" as="geometry" />
         </mxCell>
         <mxCell id="XDihBJkEoJ0V1uG7NVt8-12" value="agent.agencyid = agency.Id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDihBJkEoJ0V1uG7NVt8-13" target="XDihBJkEoJ0V1uG7NVt8-14" edge="1">
@@ -171,42 +171,42 @@
       <root>
         <mxCell id="UukvisJaQZ7xhcI8X70N-0" />
         <mxCell id="UukvisJaQZ7xhcI8X70N-1" parent="UukvisJaQZ7xhcI8X70N-0" />
-        <mxCell id="K4eQCQfbDMpkofptSABG-0" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;空中团队配置表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_team_group g&lt;/span&gt;&lt;br&gt;（id,团队名称,区域,appid,城市名称,&lt;br&gt;项目id,项目名称,类型【1项目级,2城市级】，状态【启用/停用】&lt;br&gt;）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+        <mxCell id="K4eQCQfbDMpkofptSABG-0" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;空中团队配置表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_team_group g&lt;/span&gt;&lt;br&gt;（id,团队名称,区域,appid,城市名称,&lt;br&gt;项目id,项目名称,类型【1项目级,2城市级】，状态【启用/停用】&lt;br&gt;）" style="rounded=1;whiteSpace=wrap;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" vertex="1">
           <mxGeometry x="-470" y="500" width="230" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-1" value="u.team_id=g.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UukvisJaQZ7xhcI8X70N-1" source="K4eQCQfbDMpkofptSABG-2" target="K4eQCQfbDMpkofptSABG-0">
+        <mxCell id="K4eQCQfbDMpkofptSABG-1" value="u.team_id=g.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="UukvisJaQZ7xhcI8X70N-1" source="K4eQCQfbDMpkofptSABG-2" target="K4eQCQfbDMpkofptSABG-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-2" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;空中团队人员表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_team_user u&lt;/span&gt;&lt;br&gt;（销售open_id,销售华发账号user_key,角色【0置业顾问,1负责人】，销售姓名，团队id，状态【启用/停用】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+        <mxCell id="K4eQCQfbDMpkofptSABG-2" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;空中团队人员表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_team_user u&lt;/span&gt;&lt;br&gt;（销售open_id,销售华发账号user_key,角色【0置业顾问,1负责人】，销售姓名，团队id，状态【启用/停用】）" style="rounded=1;whiteSpace=wrap;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" vertex="1">
           <mxGeometry x="-100" y="500" width="230" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-3" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;潜客池用户表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_user u&lt;/span&gt;&lt;br&gt;（id，app_id，union_id，nickname，level，open_id，user_id【随机uuid】，del_flag，mobile）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+        <mxCell id="K4eQCQfbDMpkofptSABG-3" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;潜客池用户表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_user u&lt;/span&gt;&lt;br&gt;（id，app_id，union_id，nickname，level，open_id，user_id【随机uuid】，del_flag，mobile）" style="rounded=1;whiteSpace=wrap;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" vertex="1">
           <mxGeometry x="-70" y="327.5" width="290" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UukvisJaQZ7xhcI8X70N-1" source="K4eQCQfbDMpkofptSABG-4" target="K4eQCQfbDMpkofptSABG-3">
+        <mxCell id="K4eQCQfbDMpkofptSABG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" source="K4eQCQfbDMpkofptSABG-4" target="K4eQCQfbDMpkofptSABG-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-7" value="su.user_id = u.user_id&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K4eQCQfbDMpkofptSABG-6">
+        <mxCell id="K4eQCQfbDMpkofptSABG-7" value="su.user_id = u.user_id&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K4eQCQfbDMpkofptSABG-6" vertex="1" connectable="0">
           <mxGeometry x="0.1375" y="1" relative="1" as="geometry">
             <mxPoint x="-28" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-4" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;销售客户关联表&lt;br&gt;cp_saler_user&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&amp;nbsp;su&lt;/span&gt;&lt;br&gt;（id，app_id，销售open_id，user_id，remark，del_flag，mobile，project_name，saler_name，销售userKey，是否接听follow，是否有意向purpose，如是rs_project_id，是否已拨打is_call，最近跟进时间follow_time，cp_user_log表log_id，&lt;br&gt;首次意向时间，首次拨打时间，首次接听时间，&lt;br&gt;is_report，report_time【报备时间】，&lt;br&gt;is_allot【是否分配0否，1项目分配,2城市分配】，&lt;br&gt;level【等级-1D 0C 1B 2A】，&lt;br&gt;project_id【华发项目id，6位】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+        <mxCell id="K4eQCQfbDMpkofptSABG-4" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;销售客户关联表&lt;br&gt;cp_saler_user&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&amp;nbsp;su&lt;/span&gt;&lt;br&gt;（id，app_id，销售open_id，user_id，remark，del_flag，mobile，project_name，saler_name，销售userKey，是否接听follow，是否有意向purpose，如是rs_project_id，是否已拨打is_call，最近跟进时间follow_time，cp_user_log表log_id，&lt;br&gt;首次意向时间，首次拨打时间，首次接听时间，&lt;br&gt;is_report，report_time【报备时间】，&lt;br&gt;is_allot【是否分配0否，1项目分配,2城市分配】，&lt;br&gt;level【等级-1D 0C 1B 2A】，&lt;br&gt;project_id【华发项目id，6位】）" style="rounded=1;whiteSpace=wrap;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" vertex="1">
           <mxGeometry x="-620" y="280" width="380" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-5" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;推送记录表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;cp_user_log&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&amp;nbsp;u&lt;/span&gt;&lt;br&gt;（id，app_id，union_id，ip，mobile，头像，昵称，open_id，&lt;br&gt;user_id，user_key，如是rs_project_id，project_name，&lt;br&gt;销售open_id，销售姓名，aicall客次数，触达批次batch_id，&lt;br&gt;来源【 0:h5 1:微信小程序 2转介】，来源方式，来源页面page_id，标题page_title，&lt;br&gt;is_allot【是否分配0否，1项目分配,2城市分配】，&lt;br&gt;转介原销售source_saler_name，source_saler_open_id,&lt;br&gt;转介原项目source_project_id，source_project_name，&lt;br&gt;活动act_id，活动名称act_name&lt;br&gt;project_id【华发项目id，6位】，是否有效is_valid，是否关注is_fans）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+        <mxCell id="K4eQCQfbDMpkofptSABG-5" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;推送记录表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10.6667px&quot;&gt;cp_user_log&lt;/span&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;&amp;nbsp;u&lt;/span&gt;&lt;br&gt;（id，app_id，union_id，ip，mobile，头像，昵称，open_id，&lt;br&gt;user_id，user_key，如是rs_project_id，project_name，&lt;br&gt;销售open_id，销售姓名，aicall客次数，触达批次batch_id，&lt;br&gt;来源【 0:h5 1:微信小程序 2转介】，来源方式，来源页面page_id，标题page_title，&lt;br&gt;is_allot【是否分配0否，1项目分配,2城市分配】，&lt;br&gt;转介原销售source_saler_name，source_saler_open_id,&lt;br&gt;转介原项目source_project_id，source_project_name，&lt;br&gt;活动act_id，活动名称act_name&lt;br&gt;project_id【华发项目id，6位】，是否有效is_valid，是否关注is_fans）" style="rounded=1;whiteSpace=wrap;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" vertex="1">
           <mxGeometry x="-1200" y="285" width="460" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-10" value="tl.batch_id=b.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UukvisJaQZ7xhcI8X70N-1" source="K4eQCQfbDMpkofptSABG-8" target="K4eQCQfbDMpkofptSABG-9">
+        <mxCell id="K4eQCQfbDMpkofptSABG-10" value="tl.batch_id=b.id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" source="K4eQCQfbDMpkofptSABG-8" target="K4eQCQfbDMpkofptSABG-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-11" value="tl.user_id=u.user_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UukvisJaQZ7xhcI8X70N-1" source="K4eQCQfbDMpkofptSABG-8" target="K4eQCQfbDMpkofptSABG-3">
+        <mxCell id="K4eQCQfbDMpkofptSABG-11" value="tl.user_id=u.user_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" source="K4eQCQfbDMpkofptSABG-8" target="K4eQCQfbDMpkofptSABG-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-8" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;触达详细客户表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_touch_log tl&lt;/span&gt;&lt;br&gt;（id，batch_id，user_id，create_time）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+        <mxCell id="K4eQCQfbDMpkofptSABG-8" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;触达详细客户表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_touch_log tl&lt;/span&gt;&lt;br&gt;（id，batch_id，user_id，create_time）" style="rounded=1;whiteSpace=wrap;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" vertex="1">
           <mxGeometry x="400" y="327.5" width="290" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="K4eQCQfbDMpkofptSABG-9" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;触达批次表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_touch_batch b&lt;/span&gt;&lt;br&gt;（id，saler_open_id，触达时间，触达人数touch_number，&lt;br&gt;类型type【0批量触达，1:单人触达】&lt;br&gt;来源页面page_id，标题page_title，内容content，&lt;br&gt;level【对哪个等级的用户做的触达0C1B2A】&lt;br&gt;touch_way【触达方式 1话费、2红包、3流量、4问卷、5aicall客、6活动】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+        <mxCell id="K4eQCQfbDMpkofptSABG-9" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;触达批次表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_touch_batch b&lt;/span&gt;&lt;br&gt;（id，saler_open_id，触达时间，触达人数touch_number，&lt;br&gt;类型type【0批量触达，1:单人触达】&lt;br&gt;来源页面page_id，标题page_title，内容content，&lt;br&gt;level【对哪个等级的用户做的触达0C1B2A】&lt;br&gt;touch_way【触达方式 1话费、2红包、3流量、4问卷、5aicall客、6活动】）" style="rounded=1;whiteSpace=wrap;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" vertex="1">
           <mxGeometry x="330" y="110" width="430" height="110" as="geometry" />
         </mxCell>
       </root>
