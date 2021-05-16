@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T23:49:31.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="UyZUvKDO5Zy6V4GBvFlO" version="14.6.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-16T00:31:27.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2GJMUTbH8ovv0datcfPF" version="14.6.13" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -671,8 +671,8 @@
         <mxCell id="CKYEElKxBUjVJn_sR5-g-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CKYEElKxBUjVJn_sR5-g-1" source="CKYEElKxBUjVJn_sR5-g-3" target="CKYEElKxBUjVJn_sR5-g-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CKYEElKxBUjVJn_sR5-g-3" value="设置属性&lt;br&gt;populateBean" style="whiteSpace=wrap;html=1;" parent="CKYEElKxBUjVJn_sR5-g-1" vertex="1">
-          <mxGeometry x="170" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="CKYEElKxBUjVJn_sR5-g-3" value="设置属性&lt;br&gt;populateBean&lt;br&gt;如果依赖的是一个bean,则会走此bean的生命周期" style="whiteSpace=wrap;html=1;" parent="CKYEElKxBUjVJn_sR5-g-1" vertex="1">
+          <mxGeometry x="160" y="150" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CKYEElKxBUjVJn_sR5-g-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CKYEElKxBUjVJn_sR5-g-1" source="CKYEElKxBUjVJn_sR5-g-5" target="CKYEElKxBUjVJn_sR5-g-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -741,6 +741,15 @@
         </mxCell>
         <mxCell id="CKYEElKxBUjVJn_sR5-g-27" value="调用destroy-method属性配置的方法" style="whiteSpace=wrap;html=1;rounded=1;" parent="CKYEElKxBUjVJn_sR5-g-1" vertex="1">
           <mxGeometry x="250" y="765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LhrS-JB_1CwRxjZbS8Na-0" value="AutowiredAnnotationBeanPostProcessor#postProcessProperties&lt;br&gt;1、找出有autowired的注解属性&lt;br&gt;2、从容器获取相应的bean，如果bean还不存在，则会走生命周期&lt;br&gt;3、如果有循环依赖，会先获取getEarlyBeanReference，&lt;br&gt;org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator#getEarlyBeanReference&lt;br&gt;4、如果需要生成代理，则返回的就是代理对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
+          <mxGeometry x="-250" y="230" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="w6WgxL_Pf6Yx3ERt4r21-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CKYEElKxBUjVJn_sR5-g-1" source="w6WgxL_Pf6Yx3ERt4r21-0" target="CKYEElKxBUjVJn_sR5-g-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6WgxL_Pf6Yx3ERt4r21-0" value="实例完Bean后，会再次调用getSingleton(beanName, false)从二级缓存中获取提前暴露的实例，此时返回的就是代理类，循环引用中也是返回此对象，这样就达成一致性了" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
+          <mxGeometry x="660" y="625" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
