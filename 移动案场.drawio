@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T00:30:29.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="q2vC-ln3xu_rFDJKGEEC" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-18T09:14:58.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="H6aDT8rOJAPKR49E9uJH" version="14.6.13" type="github" pages="2">
   <diagram id="eaGL7Z7917qESnS54RT0" name="第 1 页">
-    <mxGraphModel dx="1747" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1849" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,7 +167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nFGt0MqnmTu4ru6C3Byg" name="潜客池">
-    <mxGraphModel dx="2436" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2676" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="UukvisJaQZ7xhcI8X70N-0" />
         <mxCell id="UukvisJaQZ7xhcI8X70N-1" parent="UukvisJaQZ7xhcI8X70N-0" />
@@ -208,6 +208,9 @@
         </mxCell>
         <mxCell id="K4eQCQfbDMpkofptSABG-9" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;触达批次表&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 8pt&quot;&gt;cp_touch_batch b&lt;/span&gt;&lt;br&gt;（id，saler_open_id，触达时间，触达人数touch_number，&lt;br&gt;类型type【0批量触达，1:单人触达】&lt;br&gt;来源页面page_id，标题page_title，内容content，&lt;br&gt;level【对哪个等级的用户做的触达0C1B2A】&lt;br&gt;touch_way【触达方式 1话费、2红包、3流量、4问卷、5aicall客、6活动】）" style="rounded=1;whiteSpace=wrap;html=1;" parent="UukvisJaQZ7xhcI8X70N-1" vertex="1">
           <mxGeometry x="330" y="110" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cHUheyltoiaNRc8e_QKf-0" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;项目流程表&lt;br&gt;rs_project_process&lt;/span&gt;&lt;br&gt;（id，app_id，project_id，project_name，流程process_key，&lt;br&gt;process_type【流程类型：1分配流程 2潜客转换流程】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+          <mxGeometry x="340" y="490" width="350" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
