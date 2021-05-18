@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T09:14:58.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="H6aDT8rOJAPKR49E9uJH" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-18T09:21:24.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="BOxg7aAzZC3hJDImiMLM" version="14.6.13" type="github" pages="2">
   <diagram id="eaGL7Z7917qESnS54RT0" name="第 1 页">
     <mxGraphModel dx="1849" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,6 +211,12 @@
         </mxCell>
         <mxCell id="cHUheyltoiaNRc8e_QKf-0" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;项目流程表&lt;br&gt;rs_project_process&lt;/span&gt;&lt;br&gt;（id，app_id，project_id，project_name，流程process_key，&lt;br&gt;process_type【流程类型：1分配流程 2潜客转换流程】）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
           <mxGeometry x="340" y="490" width="350" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cHUheyltoiaNRc8e_QKf-1" value="&lt;span style=&quot;font-size: 10.6667px&quot;&gt;分配失败用户&lt;br&gt;cp_allot_fail_user&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+          <mxGeometry x="350" y="610" width="350" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cHUheyltoiaNRc8e_QKf-2" value="&lt;span style=&quot;color: rgb(43 , 43 , 43) ; font-family: , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;报备信息表&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(43 , 43 , 43) ; font-family: , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;rs_report&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UukvisJaQZ7xhcI8X70N-1">
+          <mxGeometry x="-80" y="640" width="350" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
