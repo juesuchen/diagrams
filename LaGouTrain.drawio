@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T00:31:27.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2GJMUTbH8ovv0datcfPF" version="14.6.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-08-12T01:11:17.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="mp8bqlTnh9oGK_gJzIV1" version="14.9.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
-    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gR8zzzDgB4NcIEMsgWaa" name="Mybatis原码解释">
-    <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-0" />
         <mxCell id="x6rgjDe1mu-2xuDdk9oM-1" parent="x6rgjDe1mu-2xuDdk9oM-0" />
@@ -658,7 +658,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dXcOOgwqbJg7KwQ8kwGa" name="SpringBean生命周期">
-    <mxGraphModel dx="1609" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CKYEElKxBUjVJn_sR5-g-0" />
         <mxCell id="CKYEElKxBUjVJn_sR5-g-1" parent="CKYEElKxBUjVJn_sR5-g-0" />
@@ -742,20 +742,20 @@
         <mxCell id="CKYEElKxBUjVJn_sR5-g-27" value="调用destroy-method属性配置的方法" style="whiteSpace=wrap;html=1;rounded=1;" parent="CKYEElKxBUjVJn_sR5-g-1" vertex="1">
           <mxGeometry x="250" y="765" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LhrS-JB_1CwRxjZbS8Na-0" value="AutowiredAnnotationBeanPostProcessor#postProcessProperties&lt;br&gt;1、找出有autowired的注解属性&lt;br&gt;2、从容器获取相应的bean，如果bean还不存在，则会走生命周期&lt;br&gt;3、如果有循环依赖，会先获取getEarlyBeanReference，&lt;br&gt;org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator#getEarlyBeanReference&lt;br&gt;4、如果需要生成代理，则返回的就是代理对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
+        <mxCell id="LhrS-JB_1CwRxjZbS8Na-0" value="AutowiredAnnotationBeanPostProcessor#postProcessProperties&lt;br&gt;1、找出有autowired的注解属性&lt;br&gt;2、从容器获取相应的bean，如果bean还不存在，则会走生命周期&lt;br&gt;3、如果有循环依赖，会先获取getEarlyBeanReference，&lt;br&gt;org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator#getEarlyBeanReference&lt;br&gt;4、如果需要生成代理，则返回的就是代理对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CKYEElKxBUjVJn_sR5-g-1" vertex="1">
           <mxGeometry x="-250" y="230" width="360" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="w6WgxL_Pf6Yx3ERt4r21-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CKYEElKxBUjVJn_sR5-g-1" source="w6WgxL_Pf6Yx3ERt4r21-0" target="CKYEElKxBUjVJn_sR5-g-23">
+        <mxCell id="w6WgxL_Pf6Yx3ERt4r21-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CKYEElKxBUjVJn_sR5-g-1" source="w6WgxL_Pf6Yx3ERt4r21-0" target="CKYEElKxBUjVJn_sR5-g-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w6WgxL_Pf6Yx3ERt4r21-0" value="实例完Bean后，会再次调用getSingleton(beanName, false)从二级缓存中获取提前暴露的实例，此时返回的就是代理类，循环引用中也是返回此对象，这样就达成一致性了" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="CKYEElKxBUjVJn_sR5-g-1">
+        <mxCell id="w6WgxL_Pf6Yx3ERt4r21-0" value="实例完Bean后，会再次调用getSingleton(beanName, false)从二级缓存中获取提前暴露的实例，此时返回的就是代理类，循环引用中也是返回此对象，这样就达成一致性了" style="whiteSpace=wrap;html=1;rounded=1;" parent="CKYEElKxBUjVJn_sR5-g-1" vertex="1">
           <mxGeometry x="660" y="625" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Qb6rJdtdBX7bAuCamjT-" name="Xml方式创建上下文">
-    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="a1a4eP3ZieAN4zQy85GO-0" />
         <mxCell id="a1a4eP3ZieAN4zQy85GO-1" parent="a1a4eP3ZieAN4zQy85GO-0" />
@@ -831,7 +831,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-De0KrFV48M18seM7kQU" name="注解方式创建上下文">
-    <mxGraphModel dx="1609" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ArGLmb33wXe2RXO0Ywqa-0" />
         <mxCell id="ArGLmb33wXe2RXO0Ywqa-1" parent="ArGLmb33wXe2RXO0Ywqa-0" />
@@ -1027,6 +1027,57 @@
         </mxCell>
         <mxCell id="vuukjNI5-GVYHAFR5fei-18" value="假设ServiceA-&amp;gt;ServiceB&lt;br&gt;ServiceB-&amp;gt;ServiceA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ArGLmb33wXe2RXO0Ywqa-1" vertex="1">
           <mxGeometry x="2140" y="1680" width="180" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9gU6RNaMRF_Gnrmq3G7O" name="Reids线程模型">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-0" />
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-1" parent="UGRHGBY0qwf13_ZPsffU-0" />
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-2" value="Redis进程" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="531" y="110" width="710" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-4" value="&lt;span&gt;客户端1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="230" y="170" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UGRHGBY0qwf13_ZPsffU-1" source="UGRHGBY0qwf13_ZPsffU-3" target="UGRHGBY0qwf13_ZPsffU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-7" value="连接请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UGRHGBY0qwf13_ZPsffU-6">
+          <mxGeometry x="0.168" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-3" value="Socket1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="310" y="210" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-9" value="产生AE_READABLE事件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UGRHGBY0qwf13_ZPsffU-1" source="UGRHGBY0qwf13_ZPsffU-5" target="UGRHGBY0qwf13_ZPsffU-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-5" value="Server Socket" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="580" y="120" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UGRHGBY0qwf13_ZPsffU-1" source="UGRHGBY0qwf13_ZPsffU-10" target="UGRHGBY0qwf13_ZPsffU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-10" value="IO多路复用程序" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="560" y="250" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-11" value="队列" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="760" y="255" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-13" value="S01" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="990" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-14" value="S02" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="930" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-15" value="Socket01" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="600" y="350" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
