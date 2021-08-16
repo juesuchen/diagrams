@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T01:48:59.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Uo8fQw7V0imJFUAlzoHf" version="14.9.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-08-16T01:50:02.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="R6eH3oM1Eg6bf8VwOG6s" version="14.9.6" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="自定义Mybatis框架">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1032,11 +1032,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9gU6RNaMRF_Gnrmq3G7O" name="Reids线程模型">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="UGRHGBY0qwf13_ZPsffU-0" />
         <mxCell id="UGRHGBY0qwf13_ZPsffU-1" parent="UGRHGBY0qwf13_ZPsffU-0" />
-        <mxCell id="UGRHGBY0qwf13_ZPsffU-2" value="Redis进程" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-2" value="Redis进程" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
           <mxGeometry x="531" y="110" width="1039" height="630" as="geometry" />
         </mxCell>
         <mxCell id="UGRHGBY0qwf13_ZPsffU-4" value="&lt;span&gt;客户端1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
@@ -1085,14 +1085,11 @@
         <mxCell id="UGRHGBY0qwf13_ZPsffU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="UGRHGBY0qwf13_ZPsffU-1" source="UGRHGBY0qwf13_ZPsffU-11" target="UGRHGBY0qwf13_ZPsffU-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UGRHGBY0qwf13_ZPsffU-11" value="队列" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
+        <mxCell id="UGRHGBY0qwf13_ZPsffU-11" value="队列" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
           <mxGeometry x="760" y="255" width="300" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="UGRHGBY0qwf13_ZPsffU-13" value="S01" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
-          <mxGeometry x="950" y="270" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="UGRHGBY0qwf13_ZPsffU-14" value="S01" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
-          <mxGeometry x="900" y="270" width="40" height="40" as="geometry" />
+          <mxGeometry x="900" y="285" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UGRHGBY0qwf13_ZPsffU-16" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;2、产生AE_READABLE事件&lt;/span&gt;&lt;br&gt;3、产生AE_WRITEABLE事件" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UGRHGBY0qwf13_ZPsffU-1" source="UGRHGBY0qwf13_ZPsffU-15" target="UGRHGBY0qwf13_ZPsffU-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1163,9 +1160,6 @@
         <mxCell id="UGRHGBY0qwf13_ZPsffU-21" value="命令回复处理器" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
           <mxGeometry x="1340" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UGRHGBY0qwf13_ZPsffU-38" value="SS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
-          <mxGeometry x="1010" y="270" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="UGRHGBY0qwf13_ZPsffU-39" value="SS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
           <mxGeometry x="1030.5" y="390" width="40" height="40" as="geometry" />
         </mxCell>
@@ -1174,6 +1168,12 @@
         </mxCell>
         <mxCell id="UGRHGBY0qwf13_ZPsffU-41" value="S01" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" parent="UGRHGBY0qwf13_ZPsffU-1" vertex="1">
           <mxGeometry x="1420" y="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6f4vJipXgAenUmzZwi-0" value="SS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="1010" y="285" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sv6f4vJipXgAenUmzZwi-1" value="S01" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" vertex="1" parent="UGRHGBY0qwf13_ZPsffU-1">
+          <mxGeometry x="950" y="285" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
