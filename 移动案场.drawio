@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T01:03:59.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="d_z36fg-9BfaFD35DnGJ" version="14.9.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-19T01:05:06.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="WN8Ngi1JKzlbxptm9LkF" version="14.9.7" type="github" pages="3">
   <diagram id="eaGL7Z7917qESnS54RT0" name="移动案场">
     <mxGraphModel dx="1611" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -658,6 +658,9 @@
         </mxCell>
         <mxCell id="tOvCvJqmPH_VSFO-lwUL-63" value="对应项目是否有客户数据：根据项目id+客户手机号查询&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
           <mxGeometry x="-1370" y="470" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tOvCvJqmPH_VSFO-lwUL-64" value="查询全民营销报备记录" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;verticalAlign=top;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="1290" y="140" width="140" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
