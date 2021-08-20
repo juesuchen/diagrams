@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T07:41:24.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Sxn_YF6jFRX0S0HFwX6_" version="14.9.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-20T08:26:47.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="mQnYMB7kOJgVdg2HGPST" version="14.9.8" type="github" pages="3">
   <diagram id="eaGL7Z7917qESnS54RT0" name="移动案场">
     <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -600,14 +600,8 @@
         <mxCell id="vZ9gtyy9oh4Knpx1UX1e-7" value="对应项目有客户数据？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
           <mxGeometry x="810" y="680" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vZ9gtyy9oh4Knpx1UX1e-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="vZ9gtyy9oh4Knpx1UX1e-10" target="vZ9gtyy9oh4Knpx1UX1e-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vZ9gtyy9oh4Knpx1UX1e-10" value="&lt;div&gt;来电补录客户到访/复访&lt;/div&gt;&lt;div&gt;【通知原销售】&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
           <mxGeometry x="950" y="830" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vZ9gtyy9oh4Knpx1UX1e-12" value="通知原销售&lt;br&gt;（发送微信信息）" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
-          <mxGeometry x="950" y="960" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vZ9gtyy9oh4Knpx1UX1e-20" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="vZ9gtyy9oh4Knpx1UX1e-15" target="vZ9gtyy9oh4Knpx1UX1e-19">
           <mxGeometry relative="1" as="geometry" />
