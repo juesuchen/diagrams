@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T03:03:22.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="4uYsbhiBsciXk4FYxegM" version="14.9.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-20T07:41:24.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Sxn_YF6jFRX0S0HFwX6_" version="14.9.8" type="github" pages="3">
   <diagram id="eaGL7Z7917qESnS54RT0" name="移动案场">
     <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -428,11 +428,11 @@
         <mxCell id="vZ9gtyy9oh4Knpx1UX1e-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="tOvCvJqmPH_VSFO-lwUL-9" target="vZ9gtyy9oh4Knpx1UX1e-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tOvCvJqmPH_VSFO-lwUL-9" value="保存到访记录&lt;br&gt;【自然到访客户】" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="LPDnRRl9zzSa4NYrL10U-1" vertex="1">
+        <mxCell id="tOvCvJqmPH_VSFO-lwUL-9" value="自然到访补录&lt;br&gt;客户数据流程" style="whiteSpace=wrap;html=1;rounded=0;" parent="LPDnRRl9zzSa4NYrL10U-1" vertex="1">
           <mxGeometry x="790" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tOvCvJqmPH_VSFO-lwUL-10" value="分配客户给销售&lt;br&gt;【自然来访客户】" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="LPDnRRl9zzSa4NYrL10U-1" vertex="1">
-          <mxGeometry x="600" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tOvCvJqmPH_VSFO-lwUL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="LPDnRRl9zzSa4NYrL10U-1" source="tOvCvJqmPH_VSFO-lwUL-12" target="tOvCvJqmPH_VSFO-lwUL-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -594,9 +594,6 @@
         <mxCell id="tOvCvJqmPH_VSFO-lwUL-64" value="查询全民营销报备记录" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;verticalAlign=top;" parent="LPDnRRl9zzSa4NYrL10U-1" vertex="1">
           <mxGeometry x="1290" y="140" width="140" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="vZ9gtyy9oh4Knpx1UX1e-9" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="vZ9gtyy9oh4Knpx1UX1e-7" target="tOvCvJqmPH_VSFO-lwUL-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vZ9gtyy9oh4Knpx1UX1e-16" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="vZ9gtyy9oh4Knpx1UX1e-7" target="vZ9gtyy9oh4Knpx1UX1e-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -686,6 +683,18 @@
         </mxCell>
         <mxCell id="vZ9gtyy9oh4Knpx1UX1e-36" value="更新销售" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
           <mxGeometry x="1500" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZ9gtyy9oh4Knpx1UX1e-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="vZ9gtyy9oh4Knpx1UX1e-45" target="tOvCvJqmPH_VSFO-lwUL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZ9gtyy9oh4Knpx1UX1e-45" value="保存到访记录&lt;br&gt;【自然到访客户】" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="590" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZ9gtyy9oh4Knpx1UX1e-46" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="vZ9gtyy9oh4Knpx1UX1e-7" target="vZ9gtyy9oh4Knpx1UX1e-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="720" as="sourcePoint" />
+            <mxPoint x="570" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
