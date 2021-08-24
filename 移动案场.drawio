@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-23T10:48:49.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="G3N9v2HbChnYVBMvBGGW" version="14.9.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-24T02:08:33.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="iEP7A6komGPHR5W4QS3g" version="14.9.8" type="github" pages="3">
   <diagram id="eaGL7Z7917qESnS54RT0" name="移动案场">
-    <mxGraphModel dx="1609" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1611" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rLOTkTC1GYRhujwSjVxk" name="工作台+门岗新旧服务">
-    <mxGraphModel dx="2771" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2436" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LPDnRRl9zzSa4NYrL10U-0" />
         <mxCell id="LPDnRRl9zzSa4NYrL10U-1" parent="LPDnRRl9zzSa4NYrL10U-0" />
@@ -533,9 +533,6 @@
         <mxCell id="vZ9gtyy9oh4Knpx1UX1e-53" value="要不要考虑经纪人是否相同" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LPDnRRl9zzSa4NYrL10U-1" vertex="1">
           <mxGeometry x="1780" y="180" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NvA_x-9-3K9OyvHiz1z3-0" value="&lt;h3&gt;1、客户数据，如果原记录销售不一致，门岗没办法修改原数据的销售，导致同一案场下，一个客户会在多个销售下面。&lt;br&gt;&lt;/h3&gt;&lt;h3&gt;2、报备数据，是否需要考虑只到访同一中介的报备，其它报备不作到访，作自然到访处理。另外，如果是同一中介的报备，但销售不一样，同问题1.&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="LPDnRRl9zzSa4NYrL10U-1" vertex="1">
-          <mxGeometry x="100" y="820" width="430" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="NvA_x-9-3K9OyvHiz1z3-3" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.023;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" parent="LPDnRRl9zzSa4NYrL10U-1" source="NvA_x-9-3K9OyvHiz1z3-1" target="vZ9gtyy9oh4Knpx1UX1e-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -555,6 +552,77 @@
         </mxCell>
         <mxCell id="NvA_x-9-3K9OyvHiz1z3-8" value="通知原销售" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="LPDnRRl9zzSa4NYrL10U-1" vertex="1">
           <mxGeometry x="990" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-0" value="手机号+项目id" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="-1000" y="165" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-4" target="rSAFZAIyv3TECi2szGLy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-4" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;b&gt;获取报备记录流程&lt;br&gt;&lt;/b&gt;手机全号+项目+有效性&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2320" y="65" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-8" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-5" target="rSAFZAIyv3TECi2szGLy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-5" target="rSAFZAIyv3TECi2szGLy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-11" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="rSAFZAIyv3TECi2szGLy-10">
+          <mxGeometry x="-0.237" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-5" value="找到记录？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2345" y="165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-7" value="返回记录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2500" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-9" target="rSAFZAIyv3TECi2szGLy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-9" value="&lt;span style=&quot;text-align: left&quot;&gt;隐号匹配+项目+有效性&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2317.5" y="305" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-15" value="多条" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-12" target="rSAFZAIyv3TECi2szGLy-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2540" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-17" value="1条" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-12" target="rSAFZAIyv3TECi2szGLy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-19" value="无" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-12" target="rSAFZAIyv3TECi2szGLy-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2285" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-12" value="找到记录？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2345" y="415" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-16" value="&lt;span&gt;返回记录&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2120" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-20" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2335" y="610" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-23" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-21" target="rSAFZAIyv3TECi2szGLy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-25" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LPDnRRl9zzSa4NYrL10U-1" source="rSAFZAIyv3TECi2szGLy-21" target="rSAFZAIyv3TECi2szGLy-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2560" y="575" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2560" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-21" value="有相同经纪人？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2520" y="415" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rSAFZAIyv3TECi2szGLy-22" value="返回记录" style="whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="LPDnRRl9zzSa4NYrL10U-1">
+          <mxGeometry x="2660" y="425" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
