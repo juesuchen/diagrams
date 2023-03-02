@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T08:14:30.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="Odm9GfBcbNIQ_NoaLwyo" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T11:04:41.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="m7fdQPl4L4K3x870jcCn" version="20.8.23" type="github">
   <diagram id="3vMIc5IcYFCmx4nej75x" name="第 1 页">
-    <mxGraphModel dx="882" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1222" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,41 +182,45 @@
           <mxGeometry x="30" y="408" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-56" value="校验业主身份VerifyIsOwnerReportHandler" style="swimlane;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="160" width="280" height="500" as="geometry">
+          <mxGeometry x="1680" y="160" width="400" height="500" as="geometry">
             <mxRectangle x="380" y="210" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-56" source="2C9ELIlUflR8zAabHK5Y-58" target="2C9ELIlUflR8zAabHK5Y-59">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-57" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-56" source="2C9ELIlUflR8zAabHK5Y-58" target="2C9ELIlUflR8zAabHK5Y-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-58" value="&lt;div class=&quot;mind-clipboard&quot;&gt;获取分布式锁&lt;div&gt;cusTel&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-56">
-          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-58" value="&lt;div class=&quot;mind-clipboard&quot;&gt;走公共客逻辑&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;1、看电话表是否存在记录，隐号则前3后4匹配&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;2、没有则返回true，如果大于1，则提示补全号码&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;3、report.setCustomerMobile(mobile);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-56">
+          <mxGeometry x="60" y="40" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-59" value="&lt;div class=&quot;mind-clipboard&quot;&gt;选择案场不能为空或者不能超过5个&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-56">
-          <mxGeometry x="60" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-61" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-56" source="2C9ELIlUflR8zAabHK5Y-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="230" as="sourcePoint" />
+            <mxPoint x="120" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-60" value="&lt;div class=&quot;mind-clipboard&quot;&gt;阳光宣言未配置，不允许保存&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-56">
-          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-62" value="&lt;div class=&quot;mind-clipboard&quot;&gt;创建并初始化CustomerReportDto&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-setCustomerMobile&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-56">
+          <mxGeometry x="50" y="400" width="140" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-56" source="2C9ELIlUflR8zAabHK5Y-59" target="2C9ELIlUflR8zAabHK5Y-60">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-56" target="2C9ELIlUflR8zAabHK5Y-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="360" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-62" value="&lt;div class=&quot;mind-clipboard&quot;&gt;创建并初始化CustomerReportDto&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-CustomerReport&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-CustomerClue&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-CustomerNodeLog&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-ignoreCityReport&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-56">
-          <mxGeometry x="50" y="367" width="140" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-56" source="2C9ELIlUflR8zAabHK5Y-60" target="2C9ELIlUflR8zAabHK5Y-62">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-122" value="有配置20规则" style="rhombus;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=default;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-56">
+          <mxGeometry x="150" y="180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-64" value="校验非业主身份的线索VerifyNotOwnerClueReportHandler" style="swimlane;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="160" width="770" height="790" as="geometry">
+          <mxGeometry x="2080" y="160" width="770" height="790" as="geometry">
             <mxRectangle x="380" y="210" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" target="2C9ELIlUflR8zAabHK5Y-67">
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-66" target="2C9ELIlUflR8zAabHK5Y-67">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="70" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="190" y="100" />
+              <mxPoint x="310" y="100" />
               <mxPoint x="500" y="100" />
             </Array>
           </mxGeometry>
@@ -235,7 +239,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-66" value="&lt;div class=&quot;mind-clipboard&quot;&gt;240检查是否允许重复报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;allow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="90" y="40" width="200" height="30" as="geometry" />
+          <mxGeometry x="210" y="40" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-67" target="2C9ELIlUflR8zAabHK5Y-112">
           <mxGeometry relative="1" as="geometry" />
@@ -277,7 +281,7 @@
         <mxCell id="2C9ELIlUflR8zAabHK5Y-115" value="&lt;div class=&quot;mind-clipboard&quot;&gt;1、&lt;span style=&quot;background-color: initial;&quot;&gt;自然到访不可报备&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;2、&lt;span style=&quot;background-color: initial;&quot;&gt;非自然到访且未到访，根据规则allow判断且为同一经纪人类型才行&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
           <mxGeometry x="570" y="240" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-119" value="&lt;div class=&quot;mind-clipboard&quot;&gt;如果电话不为空且是隐号report.getCustomerMobile()，且当前经纪人是机构或拓客，需要匹配电话前3后4是不是业主，是的话不充许报备&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-119" value="&lt;div class=&quot;mind-clipboard&quot;&gt;如果电话不为空report.getCustomerMobile()，且当前经纪人是机构或拓客，需要匹配电话前3后4是不是业主，是的话不充许报备&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
           <mxGeometry x="430" y="460" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-72" value="&lt;h1&gt;说明&lt;/h1&gt;&lt;p&gt;customerReportLog 有值，每个Handler都直接返回,记录报备失败日志&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
@@ -304,6 +308,14 @@
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2C9ELIlUflR8zAabHK5Y-98" target="2C9ELIlUflR8zAabHK5Y-58">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2C9ELIlUflR8zAabHK5Y-58" target="2C9ELIlUflR8zAabHK5Y-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-126" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2C9ELIlUflR8zAabHK5Y-123">
+          <mxGeometry x="-0.7365" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
