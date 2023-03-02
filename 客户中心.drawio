@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T07:52:01.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="fE7CCAh2YeEn2Z2GGfCS" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T08:14:30.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="Odm9GfBcbNIQ_NoaLwyo" version="20.8.23" type="github">
   <diagram id="3vMIc5IcYFCmx4nej75x" name="第 1 页">
-    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="882" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,12 +208,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-64" value="校验非业主身份的线索VerifyNotOwnerClueReportHandler" style="swimlane;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="160" width="380" height="500" as="geometry">
+          <mxGeometry x="1960" y="160" width="770" height="790" as="geometry">
             <mxRectangle x="380" y="210" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-66" target="2C9ELIlUflR8zAabHK5Y-67">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" target="2C9ELIlUflR8zAabHK5Y-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="100" />
+              <mxPoint x="500" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-106" value="隐号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2C9ELIlUflR8zAabHK5Y-65">
           <mxGeometry x="0.3476" y="2" relative="1" as="geometry">
@@ -229,27 +235,50 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-66" value="&lt;div class=&quot;mind-clipboard&quot;&gt;240检查是否允许重复报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;allow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="40" y="40" width="200" height="30" as="geometry" />
+          <mxGeometry x="90" y="40" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-67" value="&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;看本案场是否未成交的有效线索customer_clue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;status in (&#39;10&#39;,&#39;20&#39;,&#39;30&#39;)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;is_valid = 1&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;mobile前三后四&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="10" y="140" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-68" value="&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="5" y="240" width="170" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-67" target="2C9ELIlUflR8zAabHK5Y-68">
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-67" target="2C9ELIlUflR8zAabHK5Y-112">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-104">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="240" as="targetPoint" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-114" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2C9ELIlUflR8zAabHK5Y-113">
+          <mxGeometry x="-0.3204" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-67" target="2C9ELIlUflR8zAabHK5Y-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-117" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2C9ELIlUflR8zAabHK5Y-116">
+          <mxGeometry x="0.0869" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-67" value="&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;看本案场是否未成交的有效线索customer_clue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;status in (&#39;10&#39;,&#39;20&#39;,&#39;30&#39;)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;is_valid = 1&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;mobile前三后四&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="420" y="130" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-104" target="2C9ELIlUflR8zAabHK5Y-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-104" value="&lt;div class=&quot;mind-clipboard&quot;&gt;看本案场是否未成交的有效线索customer_clue&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;status in (&#39;10&#39;,&#39;20&#39;,&#39;30&#39;)&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;is_valid = 1&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="200" y="140" width="160" height="60" as="geometry" />
+          <mxGeometry x="25" y="130" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-109" value="&lt;div class=&quot;mind-clipboard&quot;&gt;1、无线索可报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;2、有线索且自然到访不可报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;3、有线索非自然到访且已到访的，再判断同一机构重复报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;4、有线索非自然到访且未到访，根据规则allow判断且为同一经纪人类型才行&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="200" y="240" width="170" height="140" as="geometry" />
+          <mxGeometry x="20" y="240" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-112" target="2C9ELIlUflR8zAabHK5Y-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-112" value="&lt;div class=&quot;mind-clipboard&quot;&gt;由于机构、拓客隐号报备时，线索表设置为无效状态，到访后才有效，因此需要再次判断是否存在有效到访期内的报备记录&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;1、如果有记录则根据规则allow判断且为同一经纪人类型才行&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="270" y="240" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-115" target="2C9ELIlUflR8zAabHK5Y-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-115" value="&lt;div class=&quot;mind-clipboard&quot;&gt;1、&lt;span style=&quot;background-color: initial;&quot;&gt;自然到访不可报备&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;2、&lt;span style=&quot;background-color: initial;&quot;&gt;非自然到访且未到访，根据规则allow判断且为同一经纪人类型才行&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="570" y="240" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-119" value="&lt;div class=&quot;mind-clipboard&quot;&gt;如果电话不为空且是隐号report.getCustomerMobile()，且当前经纪人是机构或拓客，需要匹配电话前3后4是不是业主，是的话不充许报备&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="430" y="460" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-72" value="&lt;h1&gt;说明&lt;/h1&gt;&lt;p&gt;customerReportLog 有值，每个Handler都直接返回,记录报备失败日志&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="670" width="190" height="120" as="geometry" />
