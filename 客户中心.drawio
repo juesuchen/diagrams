@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T05:32:59.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="fgbYcsXdDsqhPFyzB2fI" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T06:20:16.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="PhN4QQbXjlEGlKo5IY51" version="20.8.23" type="github">
   <diagram id="3vMIc5IcYFCmx4nej75x" name="第 1 页">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,10 +166,10 @@
         <mxCell id="2C9ELIlUflR8zAabHK5Y-84" value="&lt;div class=&quot;mind-clipboard&quot;&gt;110是否允许该类经纪人报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;通过电话查询erp系统&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-48">
           <mxGeometry x="30" y="170" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-85" value="&lt;div class=&quot;mind-clipboard&quot;&gt;130该项目不允许置业顾问报备&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;通过电话，销售表，team_type判断&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-48">
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-85" value="&lt;div class=&quot;mind-clipboard&quot;&gt;130该项目不允许置业顾问报备&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;通过电话，team_type，案场ID查&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-48">
           <mxGeometry x="30" y="210" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-86" value="&lt;div class=&quot;mind-clipboard&quot;&gt;160是否允许隐号报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;通过电话查询erp系统&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-48">
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-86" value="&lt;div class=&quot;mind-clipboard&quot;&gt;160是否允许隐号报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;通过电话是否包含*【仅国内电话】&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-48">
           <mxGeometry x="30" y="250" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-87" value="&lt;div class=&quot;mind-clipboard&quot;&gt;10是否员工：通过电话查询erp系统&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-48">
@@ -257,6 +257,9 @@
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2C9ELIlUflR8zAabHK5Y-80" target="2C9ELIlUflR8zAabHK5Y-50">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-102" value="&lt;h1&gt;说明&lt;/h1&gt;&lt;p&gt;effFlag，是否可编辑&lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt; X&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;：可以编辑，&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;：不可编辑&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;switch:&lt;/span&gt;开关标识（&lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;：关；&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;：开）&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="670" width="220" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
