@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T06:25:26.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="4sc_MaKrhWEPZVW9w1QY" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T07:52:01.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="fE7CCAh2YeEn2Z2GGfCS" version="20.8.23" type="github">
   <diagram id="3vMIc5IcYFCmx4nej75x" name="第 1 页">
     <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -208,30 +208,48 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-64" value="校验非业主身份的线索VerifyNotOwnerClueReportHandler" style="swimlane;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="160" width="280" height="500" as="geometry">
+          <mxGeometry x="1960" y="160" width="380" height="500" as="geometry">
             <mxRectangle x="380" y="210" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-66" target="2C9ELIlUflR8zAabHK5Y-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-66" value="&lt;div class=&quot;mind-clipboard&quot;&gt;获取分布式锁&lt;div&gt;cusTel&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-106" value="隐号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2C9ELIlUflR8zAabHK5Y-65">
+          <mxGeometry x="0.3476" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-67" value="&lt;div class=&quot;mind-clipboard&quot;&gt;选择案场不能为空或者不能超过5个&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="60" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-66" target="2C9ELIlUflR8zAabHK5Y-104">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-68" value="&lt;div class=&quot;mind-clipboard&quot;&gt;阳光宣言未配置，不允许保存&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-107" value="全号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2C9ELIlUflR8zAabHK5Y-105">
+          <mxGeometry x="0.2381" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-66" value="&lt;div class=&quot;mind-clipboard&quot;&gt;240检查是否允许重复报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;allow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="40" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-67" value="&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;看本案场是否未成交的有效线索customer_clue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;status in (&#39;10&#39;,&#39;20&#39;,&#39;30&#39;)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;is_valid = 1&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot; class=&quot;mind-clipboard&quot;&gt;mobile前三后四&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="10" y="140" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-68" value="&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="5" y="240" width="170" height="140" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-67" target="2C9ELIlUflR8zAabHK5Y-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-70" value="&lt;div class=&quot;mind-clipboard&quot;&gt;创建并初始化CustomerReportDto&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-CustomerReport&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-CustomerClue&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-CustomerNodeLog&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;-ignoreCityReport&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
-          <mxGeometry x="50" y="367" width="140" height="115" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2C9ELIlUflR8zAabHK5Y-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2C9ELIlUflR8zAabHK5Y-64" source="2C9ELIlUflR8zAabHK5Y-68" target="2C9ELIlUflR8zAabHK5Y-70">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-104" value="&lt;div class=&quot;mind-clipboard&quot;&gt;看本案场是否未成交的有效线索customer_clue&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;status in (&#39;10&#39;,&#39;20&#39;,&#39;30&#39;)&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;is_valid = 1&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="200" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-109" value="&lt;div class=&quot;mind-clipboard&quot;&gt;1、无线索可报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;2、有线索且自然到访不可报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;3、有线索非自然到访且已到访的，再判断同一机构重复报备&lt;/div&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;4、有线索非自然到访且未到访，根据规则allow判断且为同一经纪人类型才行&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;align=left;" vertex="1" parent="2C9ELIlUflR8zAabHK5Y-64">
+          <mxGeometry x="200" y="240" width="170" height="140" as="geometry" />
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-72" value="&lt;h1&gt;说明&lt;/h1&gt;&lt;p&gt;customerReportLog 有值，每个Handler都直接返回,记录报备失败日志&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="670" width="190" height="120" as="geometry" />
@@ -254,6 +272,9 @@
         </mxCell>
         <mxCell id="2C9ELIlUflR8zAabHK5Y-102" value="&lt;h1&gt;说明&lt;/h1&gt;&lt;p&gt;effFlag，是否可编辑&lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt; X&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;：可以编辑，&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;：不可编辑&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;switch:&lt;/span&gt;开关标识（&lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;：关；&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;：开）&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1430" y="670" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2C9ELIlUflR8zAabHK5Y-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2C9ELIlUflR8zAabHK5Y-98" target="2C9ELIlUflR8zAabHK5Y-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
