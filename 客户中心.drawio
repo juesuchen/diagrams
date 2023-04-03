@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T06:40:00.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="5QaJ2d5nWgRDKxT2W8lr" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T10:00:44.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="O5ii7OUlZsrU8YBnJvgH" version="21.0.6" type="github" pages="2">
   <diagram id="3vMIc5IcYFCmx4nej75x" name="报备流程">
     <mxGraphModel dx="867" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,6 +316,23 @@
           <mxGeometry x="-0.7365" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TwH4aKvPsuF8w-lMQF2r" name="华掌柜重新分配">
+    <mxGraphModel dx="737" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pxmeg0JwZwvmJa4G99sB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pxmeg0JwZwvmJa4G99sB-1" target="pxmeg0JwZwvmJa4G99sB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxmeg0JwZwvmJa4G99sB-1" value="cpAllocationClue中看是否有成交，有则跳过" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pxmeg0JwZwvmJa4G99sB-2" value="确定人员列表。找到是指定的还是均分的，如果是指定则选中有权重的，如果是均分的则选中团队所有人&lt;br&gt;cpRuleCityService.getByCity(cityId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
