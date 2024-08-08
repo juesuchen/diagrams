@@ -2357,7 +2357,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Sf7JJBKylptJR24c84oC-228" value="托收人信息表 property_trustee" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="500" y="-560" width="250" height="420" as="geometry" />
+          <mxGeometry x="922" y="-517" width="250" height="420" as="geometry" />
         </mxCell>
         <mxCell id="Sf7JJBKylptJR24c84oC-229" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="Sf7JJBKylptJR24c84oC-228">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -2528,13 +2528,8 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sf7JJBKylptJR24c84oC-268" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sf7JJBKylptJR24c84oC-169" target="Sf7JJBKylptJR24c84oC-229">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="430" y="145" />
-              <mxPoint x="430" y="-515" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Sf7JJBKylptJR24c84oC-269" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sf7JJBKylptJR24c84oC-169" target="Sf7JJBKylptJR24c84oC-229">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
