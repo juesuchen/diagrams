@@ -23,7 +23,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="00E_q2rnQK1i6W1a9DlZ" name="活动流程">
-    <mxGraphModel dx="1216" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,11 +42,16 @@
         <mxCell id="ciHioVF_uwQEzItr6yAp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ciHioVF_uwQEzItr6yAp-5" target="ciHioVF_uwQEzItr6yAp-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ciHioVF_uwQEzItr6yAp-30" value="用户点击抽奖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ciHioVF_uwQEzItr6yAp-8">
+          <mxGeometry x="-0.2326" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ciHioVF_uwQEzItr6yAp-5" value="获取滑块验证参数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="480" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ciHioVF_uwQEzItr6yAp-7" value="参与活动（抽奖）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="650" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ciHioVF_uwQEzItr6yAp-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="ciHioVF_uwQEzItr6yAp-9" target="ciHioVF_uwQEzItr6yAp-14">
           <mxGeometry relative="1" as="geometry" />
@@ -73,7 +78,7 @@
           <mxGeometry x="130" y="380" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ciHioVF_uwQEzItr6yAp-18" value="参与活动" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="120" y="145" width="670" height="150" as="geometry" />
+          <mxGeometry x="120" y="145" width="870" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ciHioVF_uwQEzItr6yAp-19" value="领取奖品" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="335" width="960" height="155" as="geometry" />
