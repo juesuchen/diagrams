@@ -114,7 +114,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v1nNn2pUtEvR3ApRkvbp-2" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v1nNn2pUtEvR3ApRkvbp-2" value="业务系统&lt;div&gt;（如客服后台服务）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
