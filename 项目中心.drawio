@@ -6324,7 +6324,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t9XxPBlkIJ7IUOwF28XJ-29" value="营销项目基础信息" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-313" y="821" width="285" height="600" as="geometry" />
+          <mxGeometry x="-313" y="821" width="285" height="630" as="geometry" />
         </mxCell>
         <mxCell id="t9XxPBlkIJ7IUOwF28XJ-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#d5e8d4;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#82b366;top=0;left=0;right=0;bottom=1;" parent="t9XxPBlkIJ7IUOwF28XJ-29" vertex="1">
           <mxGeometry y="30" width="285" height="30" as="geometry" />
@@ -6569,6 +6569,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t9XxPBlkIJ7IUOwF28XJ-86" value="项目类型标签 01-房开项目 02-产权变更项目" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#d5e8d4;align=left;strokeColor=#82b366;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="t9XxPBlkIJ7IUOwF28XJ-84" vertex="1">
+          <mxGeometry x="30" width="255" height="30" as="geometry">
+            <mxRectangle width="255" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNqKKgSJXTza6-dMQ2s3-166" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#d5e8d4;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#82b366;top=0;left=0;right=0;bottom=0;" vertex="1" parent="t9XxPBlkIJ7IUOwF28XJ-29">
+          <mxGeometry y="600" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lNqKKgSJXTza6-dMQ2s3-167" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#d5e8d4;strokeColor=#82b366;top=0;left=0;bottom=0;right=0;" vertex="1" parent="lNqKKgSJXTza6-dMQ2s3-166">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNqKKgSJXTza6-dMQ2s3-168" value="发布源营销项目主键ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#d5e8d4;align=left;strokeColor=#82b366;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="lNqKKgSJXTza6-dMQ2s3-166">
           <mxGeometry x="30" width="255" height="30" as="geometry">
             <mxRectangle width="255" height="30" as="alternateBounds" />
           </mxGeometry>
