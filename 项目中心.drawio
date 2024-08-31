@@ -10316,7 +10316,7 @@
         <mxCell id="4xCkzhVbB8aehro9qL_z-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="e99E8tjAIfaLlpv-MBt3-9" source="4xCkzhVbB8aehro9qL_z-14" target="4xCkzhVbB8aehro9qL_z-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xCkzhVbB8aehro9qL_z-14" value="选择楼栋节点&lt;div&gt;并更新信息&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-9">
+        <mxCell id="4xCkzhVbB8aehro9qL_z-14" value="选择楼栋节点&lt;div&gt;并更新信息&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;【含选择推广项目】&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-9">
           <mxGeometry x="160" y="1562" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4xCkzhVbB8aehro9qL_z-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e99E8tjAIfaLlpv-MBt3-9" source="4xCkzhVbB8aehro9qL_z-16" target="4xCkzhVbB8aehro9qL_z-38">
