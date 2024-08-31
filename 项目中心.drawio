@@ -10273,7 +10273,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0txPrYwzYbcx6fxyiRdJ" name="营销项目维护流程">
-    <mxGraphModel dx="1591" dy="646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="525" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10337,8 +10337,8 @@
         <mxCell id="e99E8tjAIfaLlpv-MBt3-21" value="从中间表中获取此项目基本信息、数据范围（&lt;font color=&quot;#cc0000&quot;&gt;未分配过&lt;/font&gt;的分期、业态、楼栋）" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="100" y="55" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uwZ5OKl-KhKO7NxJqRU0-1" value="创建营销项目信息、项目楼栋分期关系表" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-10">
-          <mxGeometry x="95" y="190" width="130" height="50" as="geometry" />
+        <mxCell id="uwZ5OKl-KhKO7NxJqRU0-1" value="1、新增营销项目信息&lt;div&gt;2、新增项目楼栋分期关系表&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-10">
+          <mxGeometry x="95" y="190" width="161" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uwZ5OKl-KhKO7NxJqRU0-18" value="更新名称、项目楼栋分期关系表" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-10">
           <mxGeometry x="100" y="480.5" width="130" height="50" as="geometry" />
