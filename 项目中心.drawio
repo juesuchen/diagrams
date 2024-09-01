@@ -10382,10 +10382,10 @@
         <mxCell id="UmUfQAH7cJjK0X35abzZ-3" value="获取营销项目基本信息" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-10">
           <mxGeometry x="101.5" y="1307" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UmUfQAH7cJjK0X35abzZ-8" value="获取分期信息：&lt;div&gt;业务表已存在则返回，否则返回中间表信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-10">
+        <mxCell id="UmUfQAH7cJjK0X35abzZ-8" value="获取分期信息：&lt;div&gt;业务表已存在则返回，否则返回中间表信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-10">
           <mxGeometry x="97" y="1538" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-m5E8eeF9b89ErPKG-B1-2" value="获取业态楼栋信息：&lt;div&gt;业务表已存在则返回，否则返回中间表信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-10">
+        <mxCell id="-m5E8eeF9b89ErPKG-B1-2" value="获取业态楼栋信息：&lt;div&gt;业务表已存在则返回，否则返回中间表信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-10">
           <mxGeometry x="101.5" y="1768" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="e99E8tjAIfaLlpv-MBt3-11" value="存储/中间件" style="swimlane;startSize=20;html=1;verticalAlign=middle;dashed=1;dashPattern=1 4;" parent="e99E8tjAIfaLlpv-MBt3-8" vertex="1">
@@ -10397,10 +10397,10 @@
         <mxCell id="uwZ5OKl-KhKO7NxJqRU0-26" value="MQ服务" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-11">
           <mxGeometry x="90" y="598" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4xCkzhVbB8aehro9qL_z-23" value="项目中心数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-11">
+        <mxCell id="4xCkzhVbB8aehro9qL_z-23" value="项目中心数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;strokeWidth=3;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-11">
           <mxGeometry x="90" y="1700" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4xCkzhVbB8aehro9qL_z-25" value="MQ服务" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-11">
+        <mxCell id="4xCkzhVbB8aehro9qL_z-25" value="MQ服务" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=6;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-11">
           <mxGeometry x="90" y="1889" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4xCkzhVbB8aehro9qL_z-73" value="项目中心数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="e99E8tjAIfaLlpv-MBt3-11">
