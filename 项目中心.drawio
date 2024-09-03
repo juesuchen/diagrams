@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="24.7.8" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="24.7.10" pages="5">
   <diagram id="WKc85tl8yk3YC3GGWxIs" name="E-R图V3">
     <mxGraphModel dx="4677" dy="1400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11570,12 +11570,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0txPrYwzYbcx6fxyiRdJ" name="营销项目维护流程">
-    <mxGraphModel dx="1323" dy="1100" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1466" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="e99E8tjAIfaLlpv-MBt3-8" value="营销项目维护流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;verticalAlign=middle;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
-          <mxGeometry x="230" y="-1" width="850" height="2622" as="geometry" />
+          <mxGeometry x="230" y="-4" width="850" height="2622" as="geometry" />
         </mxCell>
         <mxCell id="e99E8tjAIfaLlpv-MBt3-9" value="统一管理后台" style="swimlane;startSize=20;html=1;verticalAlign=middle;dashed=1;dashPattern=1 4;" parent="e99E8tjAIfaLlpv-MBt3-8" vertex="1">
           <mxGeometry y="20" width="300" height="2602" as="geometry" />
@@ -11643,8 +11643,8 @@
         <mxCell id="e99E8tjAIfaLlpv-MBt3-21" value="从中间表中获取此项目基本信息、数据范围（&lt;font color=&quot;#cc0000&quot;&gt;未分配过&lt;/font&gt;的分期、业态、楼栋）" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="100" y="55" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uwZ5OKl-KhKO7NxJqRU0-1" value="1、新增营销项目信息&lt;div&gt;2、新增项目楼栋分期关系表&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
-          <mxGeometry x="95" y="190" width="161" height="50" as="geometry" />
+        <mxCell id="uwZ5OKl-KhKO7NxJqRU0-1" value="1、新增营销项目信息&lt;div&gt;2、新增项目楼栋分期关系表&lt;/div&gt;&lt;div&gt;3、分期基础信息&lt;/div&gt;&lt;div&gt;4、楼栋ERP相关的信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
+          <mxGeometry x="95" y="178" width="161" height="74" as="geometry" />
         </mxCell>
         <mxCell id="uwZ5OKl-KhKO7NxJqRU0-18" value="更新名称、项目楼栋分期关系表" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="100" y="480.5" width="130" height="50" as="geometry" />
@@ -11667,8 +11667,8 @@
         <mxCell id="4xCkzhVbB8aehro9qL_z-42" value="更新业态楼栋单元/房号展示方式&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;【前提：已保存业态楼栋信息，否则提示无法保存】&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="96" y="2056" width="175" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4xCkzhVbB8aehro9qL_z-44" value="获取指定房源的基本信息、房型信息、销售信息&lt;div&gt;业务表已存在则返回，否则返回中间表信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
-          <mxGeometry x="96" y="2142" width="172" height="67" as="geometry" />
+        <mxCell id="4xCkzhVbB8aehro9qL_z-44" value="获取指定房源的基本信息、房型信息、销售信息&lt;div&gt;从业务表返回&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
+          <mxGeometry x="96" y="2145" width="172" height="67" as="geometry" />
         </mxCell>
         <mxCell id="4xCkzhVbB8aehro9qL_z-48" value="&lt;font color=&quot;#cc0000&quot;&gt;新增/更新&lt;/font&gt;房间基本信息并发布" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="97" y="2252" width="130" height="50" as="geometry" />
@@ -11679,10 +11679,10 @@
         <mxCell id="UmUfQAH7cJjK0X35abzZ-3" value="获取营销项目基本信息" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="101.5" y="1307" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UmUfQAH7cJjK0X35abzZ-8" value="获取分期信息：&lt;div&gt;业务表已存在则返回，否则返回中间表信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
+        <mxCell id="UmUfQAH7cJjK0X35abzZ-8" value="获取分期信息：&lt;div&gt;从业务表返回&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="97" y="1538" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-m5E8eeF9b89ErPKG-B1-2" value="获取业态楼栋信息：&lt;div&gt;业务表已存在则返回，否则返回中间表信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
+        <mxCell id="-m5E8eeF9b89ErPKG-B1-2" value="获取业态楼栋信息：&lt;div&gt;从业务表返回&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="101.5" y="1768" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="e99E8tjAIfaLlpv-MBt3-11" value="存储/中间件" style="swimlane;startSize=20;html=1;verticalAlign=middle;dashed=1;dashPattern=1 4;" parent="e99E8tjAIfaLlpv-MBt3-8" vertex="1">
@@ -11960,9 +11960,6 @@
         <mxCell id="4xCkzhVbB8aehro9qL_z-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4xCkzhVbB8aehro9qL_z-38" target="4xCkzhVbB8aehro9qL_z-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xCkzhVbB8aehro9qL_z-53" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;备注&lt;/h1&gt;&lt;div&gt;点击树中节点获取&lt;font color=&quot;#cc0000&quot;&gt;分期、楼栋、房间信息&lt;/font&gt;的取数逻辑：&lt;/div&gt;&lt;div&gt;1、查询业务表是否已创建，有则返回，否则返回中间表（含Mdm）的数据&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1549" width="180" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="4xCkzhVbB8aehro9qL_z-60" value="创建推广项目&lt;div&gt;id+名称&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="300" y="2385" width="130" height="50" as="geometry" />
         </mxCell>
@@ -11997,12 +11994,6 @@
               <mxPoint x="886" y="2410" />
               <mxPoint x="886" y="2456" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nCwfX82pzqrFwKxjYT7q-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="4xCkzhVbB8aehro9qL_z-53" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="357" y="1428" as="sourcePoint" />
-            <mxPoint x="196" y="1412" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UmUfQAH7cJjK0X35abzZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UmUfQAH7cJjK0X35abzZ-2" target="UmUfQAH7cJjK0X35abzZ-3" edge="1">
