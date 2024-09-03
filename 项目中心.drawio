@@ -11570,12 +11570,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0txPrYwzYbcx6fxyiRdJ" name="营销项目维护流程">
-    <mxGraphModel dx="1466" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="e99E8tjAIfaLlpv-MBt3-8" value="营销项目维护流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;verticalAlign=middle;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
-          <mxGeometry x="230" y="-4" width="850" height="2622" as="geometry" />
+          <mxGeometry x="228" y="-4" width="850" height="2622" as="geometry" />
         </mxCell>
         <mxCell id="e99E8tjAIfaLlpv-MBt3-9" value="统一管理后台" style="swimlane;startSize=20;html=1;verticalAlign=middle;dashed=1;dashPattern=1 4;" parent="e99E8tjAIfaLlpv-MBt3-8" vertex="1">
           <mxGeometry y="20" width="300" height="2602" as="geometry" />
@@ -11643,8 +11643,8 @@
         <mxCell id="e99E8tjAIfaLlpv-MBt3-21" value="从中间表中获取此项目基本信息、数据范围（&lt;font color=&quot;#cc0000&quot;&gt;未分配过&lt;/font&gt;的分期、业态、楼栋）" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="100" y="55" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uwZ5OKl-KhKO7NxJqRU0-1" value="1、新增营销项目信息&lt;div&gt;2、新增项目楼栋分期关系表&lt;/div&gt;&lt;div&gt;3、分期基础信息&lt;/div&gt;&lt;div&gt;4、楼栋ERP相关的信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
-          <mxGeometry x="95" y="178" width="161" height="74" as="geometry" />
+        <mxCell id="uwZ5OKl-KhKO7NxJqRU0-1" value="1、新增营销项目信息&lt;div&gt;2、新增项目楼栋分期关系表&lt;/div&gt;&lt;div&gt;3、分期基础信息&lt;/div&gt;&lt;div&gt;4、业态楼栋信息（仅初始ERP属性）&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
+          <mxGeometry x="90" y="178" width="206" height="74" as="geometry" />
         </mxCell>
         <mxCell id="uwZ5OKl-KhKO7NxJqRU0-18" value="更新名称、项目楼栋分期关系表" style="whiteSpace=wrap;html=1;verticalAlign=middle;" parent="e99E8tjAIfaLlpv-MBt3-10" vertex="1">
           <mxGeometry x="100" y="480.5" width="130" height="50" as="geometry" />
