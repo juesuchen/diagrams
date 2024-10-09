@@ -1877,7 +1877,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t9XxPBlkIJ7IUOwF28XJ-47" value="项目名称" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#d5e8d4;align=left;strokeColor=#82b366;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="t9XxPBlkIJ7IUOwF28XJ-45" vertex="1">
+        <mxCell id="t9XxPBlkIJ7IUOwF28XJ-47" value="ERP项目名称" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#d5e8d4;align=left;strokeColor=#82b366;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="t9XxPBlkIJ7IUOwF28XJ-45" vertex="1">
           <mxGeometry x="30" width="255" height="30" as="geometry">
             <mxRectangle width="255" height="30" as="alternateBounds" />
           </mxGeometry>
