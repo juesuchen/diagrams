@@ -4542,7 +4542,7 @@
             <mxPoint x="4872" y="-1524" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KzpKr6ZPA9yT_w87lA0M-182" value="receivable_type=3-应收实收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KzpKr6ZPA9yT_w87lA0M-127">
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-182" value="receivable_type=3，4 -应收实收和托收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KzpKr6ZPA9yT_w87lA0M-127">
           <mxGeometry x="-0.0255" y="-2" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
