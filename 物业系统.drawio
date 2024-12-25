@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="25.0.3" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="ER图">
-    <mxGraphModel dx="1723" dy="2300" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1723" dy="2700" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3275,8 +3275,20 @@
             <mxRectangle width="313.72551413143447" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="0NMTkoILjDe_tk5w9mLD-92" source="0NMTkoILjDe_tk5w9mLD-225" target="0NMTkoILjDe_tk5w9mLD-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295.3299999999999" y="1371" as="sourcePoint" />
+            <mxPoint x="526" y="51" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="1365" />
+              <mxPoint x="-20" y="705" />
+              <mxPoint x="-29" y="705" />
+              <mxPoint x="-29" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0NMTkoILjDe_tk5w9mLD-264" value="收费项目 property_feeitem" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="5327" y="-988" width="320" height="600" as="geometry" />
+          <mxGeometry x="5286" y="-1636" width="320" height="600" as="geometry" />
         </mxCell>
         <mxCell id="0NMTkoILjDe_tk5w9mLD-265" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" parent="0NMTkoILjDe_tk5w9mLD-264" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -4016,7 +4028,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KzpKr6ZPA9yT_w87lA0M-1" value="收费标准 property_feeitem_standard" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="5777" y="-988" width="280" height="540" as="geometry" />
+          <mxGeometry x="5802" y="-988" width="280" height="540" as="geometry" />
         </mxCell>
         <mxCell id="KzpKr6ZPA9yT_w87lA0M-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-1">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
@@ -4237,6 +4249,303 @@
         <mxCell id="KzpKr6ZPA9yT_w87lA0M-52" value="exempt_price 减免单价" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-50">
           <mxGeometry x="30" width="250" height="30" as="geometry">
             <mxRectangle width="250" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-54" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;curved=1;" edge="1" parent="1" source="0NMTkoILjDe_tk5w9mLD-265" target="KzpKr6ZPA9yT_w87lA0M-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="5505" y="-673" as="sourcePoint" />
+            <mxPoint x="5605" y="-773" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-55" value="物业项目费项标准 property_item_standard" style="shape=table;startSize=34;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="6268" y="-1019" width="266.5833333333321" height="334" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="34" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-57" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-56">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-58" value="id " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-56">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="64" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-60" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-59">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-61" value="item_id 物业项目" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-59">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="94" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-63" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-62">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-64" value="feeitem_id 收费项目" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-62">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-65" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="124" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-66" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-65">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-67" value="feeitem_standard_id 收费标准" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-65">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="154" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-69" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-68">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-70" value="begin_date 标准生效日期" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-68">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-71" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="184" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-72" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-71">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-73" value="end_date 标准失效日期" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-71">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-74" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="214" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-75" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-74">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-76" value="is_dispatched 是否已下发" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-74">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="244" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-78" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-77">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-79" value="remark 备注" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-77">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-80" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="274" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-81" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-80">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-82" value="is_distributed 是否已分配到房源" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-80">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-55">
+          <mxGeometry y="304" width="266.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-84" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-83">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-85" value="discount 收费费项折扣百分比" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-83">
+          <mxGeometry x="30" width="236.58333333333212" height="30" as="geometry">
+            <mxRectangle width="236.58333333333212" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-86" value="物业项目费项标准_物业办理 property_item_standard_2house" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="6268" y="-567" width="401.5833333333321" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-87" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="30" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-88" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-87">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-89" value="id " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;fontStyle=5;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-87">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-90" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="60" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-91" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-90">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-92" value="item_id 物业项目" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-90">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-93" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="90" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-94" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-93">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-95" value="feeitem_id 收费项目" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-93">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-96" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="120" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-97" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-96">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-98" value="feeitem_standard_id 收费标准" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-96">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-99" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="150" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-100" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-99">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-101" value="community_id 所属小区" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-99">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="180" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-103" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-102">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-104" value="house_id 所属房间" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-102">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="210" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-106" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-105">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-107" value="remark 备注" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-105">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-108" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="240" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-109" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-108">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-110" value="building_id 所属楼栋" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-108">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-111" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="270" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-112" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-111">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-113" value="customer_rate 住户承担比例(%)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-111">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-114" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="300" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-115" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-114">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-116" value="big_customer_rate 大业主承担比例(%)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-114">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-117" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-86">
+          <mxGeometry y="330" width="401.5833333333321" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-118" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;strokeColor=inherit;top=0;left=0;bottom=0;right=0;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-117">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-119" value="government_rate 管理机构承担比例(%)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" vertex="1" parent="KzpKr6ZPA9yT_w87lA0M-117">
+          <mxGeometry x="30" width="371.5833333333321" height="30" as="geometry">
+            <mxRectangle width="371.5833333333321" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-123" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;curved=1;" edge="1" parent="1" source="KzpKr6ZPA9yT_w87lA0M-2" target="KzpKr6ZPA9yT_w87lA0M-96">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="6269" y="-640" as="sourcePoint" />
+            <mxPoint x="6369" y="-740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-124" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;curved=1;" edge="1" parent="1" source="KzpKr6ZPA9yT_w87lA0M-2" target="KzpKr6ZPA9yT_w87lA0M-65">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="6269" y="-807" as="sourcePoint" />
+            <mxPoint x="6369" y="-907" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
