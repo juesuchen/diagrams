@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="25.0.3" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="ER图">
-    <mxGraphModel dx="1534" dy="3000" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1534" dy="2600" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2828,7 +2828,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0NMTkoILjDe_tk5w9mLD-161" value="collection_status 票据回帐状态" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="0NMTkoILjDe_tk5w9mLD-159" vertex="1">
+        <mxCell id="0NMTkoILjDe_tk5w9mLD-161" value="collection_status 回款状态1-已收款未到账 2-已收款已到账 &#xa;3-未收款未到账 4-已审核已付款 5-已审核未付款" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;align=left;strokeColor=inherit;top=0;left=0;bottom=0;right=0;spacingLeft=6;" parent="0NMTkoILjDe_tk5w9mLD-159" vertex="1">
           <mxGeometry x="30" width="313.72551413143447" height="30" as="geometry">
             <mxRectangle width="313.72551413143447" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3275,18 +3275,6 @@
             <mxRectangle width="313.72551413143447" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KzpKr6ZPA9yT_w87lA0M-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="0NMTkoILjDe_tk5w9mLD-92" source="0NMTkoILjDe_tk5w9mLD-225" target="0NMTkoILjDe_tk5w9mLD-93">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="295.3299999999999" y="1371" as="sourcePoint" />
-            <mxPoint x="526" y="51" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-20" y="1365" />
-              <mxPoint x="-20" y="705" />
-              <mxPoint x="-29" y="705" />
-              <mxPoint x="-29" y="45" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0NMTkoILjDe_tk5w9mLD-264" value="收费项目 property_feeitem" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="5262" y="-986" width="320" height="600" as="geometry" />
         </mxCell>
@@ -3544,7 +3532,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0NMTkoILjDe_tk5w9mLD-323" value="账单应收 bill_receivable" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="4691.73" y="-2235" width="320" height="1140" as="geometry" />
+          <mxGeometry x="4033.9999999999995" y="-1667" width="320" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="0NMTkoILjDe_tk5w9mLD-324" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" parent="0NMTkoILjDe_tk5w9mLD-323" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -4548,10 +4536,10 @@
             <mxPoint x="6369" y="-907" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KzpKr6ZPA9yT_w87lA0M-125" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;curved=1;" edge="1" parent="1" source="0NMTkoILjDe_tk5w9mLD-381" target="0NMTkoILjDe_tk5w9mLD-265">
+        <mxCell id="KzpKr6ZPA9yT_w87lA0M-127" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;curved=1;" edge="1" parent="1" source="0NMTkoILjDe_tk5w9mLD-324" target="0NMTkoILjDe_tk5w9mLD-96">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="4888" y="-1031" as="sourcePoint" />
-            <mxPoint x="4988" y="-1131" as="targetPoint" />
+            <mxPoint x="4608" y="-1686" as="sourcePoint" />
+            <mxPoint x="4872" y="-1524" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
