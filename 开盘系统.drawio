@@ -96,7 +96,7 @@
         <mxCell id="UqaKD19XabVQSRf4XIsC-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VdV3hC7US1G3ZseEJHJ6-12" source="UqaKD19XabVQSRf4XIsC-60" target="UqaKD19XabVQSRf4XIsC-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UqaKD19XabVQSRf4XIsC-60" value="&lt;div&gt;生成选房订单OnlineOrder&lt;/div&gt;&lt;div&gt;salesStatus=30 batchCustomerId is not null&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;houseInfo.setHouseStatusNo(&quot;40&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp;onlineSalesBatchWithHouse.setSalesStatus(&quot;41&quot;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
+        <mxCell id="UqaKD19XabVQSRf4XIsC-60" value="&lt;div&gt;生成选房订单OnlineOrder&lt;/div&gt;&lt;div&gt;salesStatus=30 batchCustomerId is not null&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;只针对未抢房的VIP用户&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;houseInfo.setHouseStatusNo(&quot;40&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp;onlineSalesBatchWithHouse.setSalesStatus(&quot;41&quot;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
           <mxGeometry x="10" y="820" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VdV3hC7US1G3ZseEJHJ6-13" value="Lane 3" style="swimlane;startSize=20;html=1;" parent="VdV3hC7US1G3ZseEJHJ6-10" vertex="1">
