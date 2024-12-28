@@ -81,7 +81,7 @@
         <mxCell id="UqaKD19XabVQSRf4XIsC-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VdV3hC7US1G3ZseEJHJ6-12" source="UqaKD19XabVQSRf4XIsC-54" target="UqaKD19XabVQSRf4XIsC-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UqaKD19XabVQSRf4XIsC-54" value="&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, courier&quot;&gt;批量删除备注信息&lt;br&gt;deleteRemark&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
+        <mxCell id="UqaKD19XabVQSRf4XIsC-54" value="&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, courier&quot;&gt;批量删除备注信息（清除VIP标识）&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, courier&quot;&gt;deleteRemark&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
           <mxGeometry x="25" y="950" width="215" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UqaKD19XabVQSRf4XIsC-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VdV3hC7US1G3ZseEJHJ6-12" source="UqaKD19XabVQSRf4XIsC-56" target="UqaKD19XabVQSRf4XIsC-58">
@@ -94,7 +94,12 @@
           <mxGeometry x="25" y="1130" width="215" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UqaKD19XabVQSRf4XIsC-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VdV3hC7US1G3ZseEJHJ6-12" source="UqaKD19XabVQSRf4XIsC-60" target="UqaKD19XabVQSRf4XIsC-54">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="910" />
+              <mxPoint x="132" y="910" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="UqaKD19XabVQSRf4XIsC-60" value="&lt;div&gt;生成选房订单OnlineOrder&lt;/div&gt;&lt;div&gt;salesStatus=30 batchCustomerId is not null&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;只针对未抢房的VIP用户&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;houseInfo.setHouseStatusNo(&quot;40&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp;onlineSalesBatchWithHouse.setSalesStatus(&quot;41&quot;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
           <mxGeometry x="10" y="820" width="270" height="80" as="geometry" />
