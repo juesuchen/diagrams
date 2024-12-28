@@ -81,13 +81,13 @@
         <mxCell id="UqaKD19XabVQSRf4XIsC-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VdV3hC7US1G3ZseEJHJ6-12" source="UqaKD19XabVQSRf4XIsC-54" target="UqaKD19XabVQSRf4XIsC-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UqaKD19XabVQSRf4XIsC-54" value="&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, courier&quot;&gt;批量删除备注信息（清除VIP标识）&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, courier&quot;&gt;deleteRemark&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
+        <mxCell id="UqaKD19XabVQSRf4XIsC-54" value="&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;批量删除备注信息（清除VIP标识）&lt;br/&gt;deleteRemark&lt;br&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
           <mxGeometry x="25" y="950" width="215" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UqaKD19XabVQSRf4XIsC-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VdV3hC7US1G3ZseEJHJ6-12" source="UqaKD19XabVQSRf4XIsC-56" target="UqaKD19XabVQSRf4XIsC-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UqaKD19XabVQSRf4XIsC-56" value="&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, courier&quot;&gt;批量下架房源&lt;br&gt;undercarriage&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
+        <mxCell id="UqaKD19XabVQSRf4XIsC-56" value="&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Consolas, courier&quot;&gt;下架房源undercarriage&lt;br/&gt;onlineSalesBatchWithHouse.setSalesStatus(&quot;20&quot;);&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
           <mxGeometry x="25" y="1040" width="215" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UqaKD19XabVQSRf4XIsC-58" value="&lt;pre style=&quot;background: rgb(255, 255, 255);&quot;&gt;发送认购成功短信&lt;br&gt;（查前面创建的OnlineOrder）&lt;/pre&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="VdV3hC7US1G3ZseEJHJ6-12">
