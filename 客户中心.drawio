@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T10:00:44.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="O5ii7OUlZsrU8YBnJvgH" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="25.0.3" pages="3">
   <diagram id="3vMIc5IcYFCmx4nej75x" name="报备流程">
     <mxGraphModel dx="867" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -333,6 +333,41 @@
         </mxCell>
         <mxCell id="pxmeg0JwZwvmJa4G99sB-2" value="确定人员列表。找到是指定的还是均分的，如果是指定则选中有权重的，如果是均分的则选中团队所有人&lt;br&gt;cpRuleCityService.getByCity(cityId)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="210" width="230" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Nq7p0CW_YqlZ9PWeQ6O3" name="置业通实名认证">
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="68OWeKLOnBBbaAp-FdcT-1" target="68OWeKLOnBBbaAp-FdcT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="68OWeKLOnBBbaAp-FdcT-2" target="68OWeKLOnBBbaAp-FdcT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-2" value="提交信息（证件类型，证件号、电话）" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="240" y="75" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-4" value="调用客户中心身份证验证接口" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="240" y="205" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-6" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220.00000000000045" y="10" width="620" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-7" value="置业通" style="swimlane;startSize=20;html=1;" vertex="1" parent="68OWeKLOnBBbaAp-FdcT-6">
+          <mxGeometry y="20" width="200" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-8" value="客户中心" style="swimlane;startSize=20;html=1;" vertex="1" parent="68OWeKLOnBBbaAp-FdcT-6">
+          <mxGeometry x="200" y="20" width="180" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="68OWeKLOnBBbaAp-FdcT-9" value="Lane 3" style="swimlane;startSize=20;html=1;" vertex="1" parent="68OWeKLOnBBbaAp-FdcT-6">
+          <mxGeometry x="380" y="20" width="240" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
