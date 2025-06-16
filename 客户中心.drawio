@@ -768,7 +768,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mX1DHTsiCpYBCWNg-OmF" name="客户批次">
-    <mxGraphModel dx="1606" dy="500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1864" dy="607" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1339,7 +1339,7 @@
             <mxPoint x="-30" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T7UFcGCpr30S1EFAHZOo-130" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;说明&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;1、客户批次表状态和删除标识可以合并简化&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;2、审批流程比较固定，所以修改申请表包含审批信息，简化掉一个审批记录表&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="T7UFcGCpr30S1EFAHZOo-130" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;说明&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;1、客户批次表状态和删除标识考虑可以合并简化&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;2、审批流程比较固定，所以修改申请表包含审批信息，简化掉一个审批记录表&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-113" y="462" width="290" height="209" as="geometry" />
         </mxCell>
       </root>
